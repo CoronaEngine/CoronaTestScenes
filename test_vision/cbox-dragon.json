@@ -209,7 +209,7 @@
                     "inside" : "fog",
                     "outside" : ""
                 },
-                "fn": "dragon.obj",
+                "fn": "render_scene/cbox/mesh/dragon.obj",
                 "subdiv_level": 0,
                 "transform" : {
                     "type": "trs",
