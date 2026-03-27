@@ -1054,7 +1054,7 @@
 				"type" : "normal",
 				"param" : {
 					"resolution" : [
-						1024,
+						1500,
 						1024
 					],
 					"fb_state" : 0,
