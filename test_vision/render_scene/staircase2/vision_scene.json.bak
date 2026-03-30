@@ -1442,557 +1442,278 @@
             "type": "glass",
             "name": "Glass",
             "param": {
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "xy",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "ior": 1.5,
+                "roughness": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
         },
         {
             "type": "substrate",
             "name": "Wood",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/wood5.jpg",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/wood5.jpg",
+                    "color_space": "srgb"
                 },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "xy",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.1,
-                                0.1
-                            ]
-                        }
-                    }
-                },
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness": [
+                    0.1,
+                    0.1
+                ],
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "FloorTiles",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/Tiles.jpg",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/Tiles.jpg",
+                    "color_space": "srgb"
                 },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "xy",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.01,
-                                0.01
-                            ]
-                        }
-                    }
-                },
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness": [
+                    0.01,
+                    0.01
+                ],
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "diffuse",
             "name": "Wall",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.893289,
-                                0.893289,
-                                0.893289
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.893289,
+                    0.893289,
+                    0.893289
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "Wallpaper",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/Wallpaper.jpg",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/Wallpaper.jpg",
+                    "color_space": "srgb"
                 }
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "diffuse",
             "name": "SpotHolder",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
         },
         {
             "type": "metal",
             "name": "Metal",
             "param": {
                 "material_name": "Al",
-                "eta": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "k": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "xy",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.1,
-                                0.1
-                            ]
-                        }
-                    }
-                },
+                "eta": [
+                    0,
+                    0,
+                    0
+                ],
+                "k": [
+                    0,
+                    0,
+                    0
+                ],
+                "roughness": [
+                    0.1,
+                    0.1
+                ],
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "metal",
             "name": "Chrome",
             "param": {
                 "material_name": "Cr",
-                "eta": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "k": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "xy",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.1,
-                                0.1
-                            ]
-                        }
-                    }
-                },
+                "eta": [
+                    0,
+                    0,
+                    0
+                ],
+                "k": [
+                    0,
+                    0,
+                    0
+                ],
+                "roughness": [
+                    0.1,
+                    0.1
+                ],
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "diffuse",
             "name": "shape_19_material",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "shape_20_material",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "shape_21_material",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "shape_22_material",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "shape_23_material",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "shape_24_material",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "shape_25_material",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "shape_26_material",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "shape_27_material",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "shape_28_material",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "shape_29_material",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "shape_30_material",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "shape_31_material",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            }
         }
     ],
     "sampler": {
@@ -2035,10 +1756,13 @@
                         1920,
                         1080
                     ],
-                    "tone_mapper": {
+                    "tone_mapper" : {
+                        //												"type": "reinhard",
+                        //												"type": "linear",
                         "type": "aces",
-                        "param": {
-                            "exposure": 1.0
+                        //						"type" : "exposure",
+                        "param" : {
+                            "exposure" : 1.0
                         }
                     },
                     "fb_state": 0
@@ -2067,27 +1791,46 @@
     "light_sampler": {
         "type": "uniform",
         "param": {
-            "lights": []
+            "lights": [
+//                {
+//                    "type" : "spherical",
+//                    "param": {
+//                        "color": {
+//                            "fn" : "textures/spaichingen_hill_2k.exr",
+//                            "color_space": "linear"
+//                        },
+//                        "o2w" : {
+//                            "type":"Euler",
+//                            "param": {
+//                                "yaw" :-30
+//                            }
+//                        },
+//                        "scale" : 1
+//                    }
+//                }
+
+
+            ]
         }
     },
     "pipeline": {
         "type": "fixed",
         "param": {
-            "obfuscation": false,
-            "valid_check": false,
-            "frame_buffer": {
+            "obfuscation" : false,
+            "valid_check" : false,
+            "frame_buffer" : {
                 "accumulation": 0,
-                "type": "normal",
-                "param": {
-                    "resolution": [
+                "type" : "normal",
+                "param" : {
+                    "resolution" : [
                         1024,
                         1024
                     ],
-                    "fb_state": 0,
-                    "tone_mapper": {
+                    "fb_state" : 0,
+                    "tone_mapper" : {
                         "type": "aces",
-                        "param": {
-                            "exposure": 1.0
+                        "param" : {
+                            "exposure" : 1.0
                         }
                     }
                 }
@@ -2097,9 +1840,9 @@
     "render_setting": {
         "polymorphic_mode": 1
     },
-    "spectrum": {
-        "type": "srgb",
-        "param": {
+    "spectrum" : {
+        "type" : "srgb",
+        "param" : {
             "dimension": 3
         }
     },

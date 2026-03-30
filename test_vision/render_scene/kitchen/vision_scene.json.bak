@@ -12014,3298 +12014,1422 @@
             "type": "diffuse",
             "name": "ChromeHandle",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.64,
-                                0.64,
-                                0.64
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.64,
+                    0.64,
+                    0.64
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "RadioHandle",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.389508992433548,
-                                0.37258899211883545,
-                                0.2937470078468323
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.389508992433548,
+                    0.37258899211883545,
+                    0.2937470078468323
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "RadioInside",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.015078,
-                                0.015078,
-                                0.015078
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.015078,
+                    0.015078,
+                    0.015078
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "RadioKnob",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.35837501287460327,
-                                0.3009360134601593,
-                                0.12861700356006622
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.35837501287460327,
+                    0.3009360134601593,
+                    0.12861700356006622
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "RadioPlastic",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.6399999856948853,
-                                0.6001530289649963,
-                                0.43448999524116516
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.6399999856948853,
+                    0.6001530289649963,
+                    0.43448999524116516
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "RadioSurround",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.06682199984788895,
-                                0.028495000675320625,
-                                0.013826999813318253
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.06682199984788895,
+                    0.028495000675320625,
+                    0.013826999813318253
+                ]
+            }
         },
         {
             "type": "metal",
             "name": "SteelPot",
             "param": {
                 "material_name": "Al",
-                "eta": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "k": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "eta": [
+                    0,
+                    0,
+                    0
+                ],
+                "k": [
+                    0,
+                    0,
+                    0
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "KettleGreen",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.03994716703891754,
-                                0.14198029041290283,
-                                0.0033027029130607843
-                            ]
-                        }
-                    }
-                },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "color": [
+                    0.03994716703891754,
+                    0.14198029041290283,
+                    0.0033027029130607843
+                ],
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "principled_bsdf",
             "name": "RadioGlass",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.5
-                        }
-                    }
-                },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.45
-                        }
-                    }
-                },
-                "metallic": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.0
-                        }
-                    }
-                },
-                "spec_tint": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                },
-                "anisotropic": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.0
-                        }
-                    }
-                },
-                "sheen_weight": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.0
-                        }
-                    }
-                },
-                "sheen_roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.5
-                        }
-                    }
-                },
-                "sheen_tint": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                },
-                "coat_weight": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.0
-                        }
-                    }
-                },
-                "coat_roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.03
-                        }
-                    }
-                },
-                "coat_ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "coat_tint": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                },
-                "subsurface_weight": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.0
-                        }
-                    }
-                },
-                "subsurface_radius": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                0.2,
-                                0.1
-                            ]
-                        }
-                    }
-                },
-                "subsurface_scale": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.05
-                        }
-                    }
-                },
-                "transmission_weight": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.0
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "ior": 1.5,
+                "roughness": 0.1,
+                "metallic": 0,
+                "spec_tint": 0.9,
+                "anisotropic": 0,
+                "sheen": 0.0,
+                "sheen_tint": 0.0,
+                "clearcoat": 0.59,
+                "clearcoat_alpha": 0.38,
+                "spec_trans": 0,
+                "flatness": 0,
+                "scatter_distance": [
+                    0,
+                    0,
+                    0
+                ],
+                "diff_trans": 0,
+                "thin": false
+            }
         },
         {
             "type": "metal",
             "name": "Utensils",
             "param": {
                 "material_name": "Cr",
-                "eta": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "k": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.05
-                        }
-                    }
-                },
+                "eta": [
+                    0,
+                    0,
+                    0
+                ],
+                "k": [
+                    0,
+                    0,
+                    0
+                ],
+                "roughness":
+                    0.05
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "metal",
             "name": "MetalHandles",
             "param": {
                 "material_name": "Cr",
-                "eta": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "k": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.075
-                        }
-                    }
-                },
+                "eta": [
+                    0,
+                    0,
+                    0
+                ],
+                "k": [
+                    0,
+                    0,
+                    0
+                ],
+                "roughness":
+                    0.075
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "SmallWorktop",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/Worktopt-light.jpg",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/Worktopt-light.jpg",
+                    "color_space": "srgb"
                 },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.04
-                        }
-                    }
-                },
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.04
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "metal",
             "name": "ExtractorHood",
             "param": {
                 "material_name": "Cr",
-                "eta": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "k": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.002
-                        }
-                    }
-                },
+                "eta": [
+                    0,
+                    0,
+                    0
+                ],
+                "k": [
+                    0,
+                    0,
+                    0
+                ],
+                "roughness":
+                    0.002
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "diffuse",
             "name": "Walls",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
         },
         {
             "type": "substrate",
             "name": "Plates",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.578596,
-                                0.578596,
-                                0.578596
-                            ]
-                        }
-                    }
-                },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.01
-                        }
-                    }
-                },
+                "color": [
+                    0.578596,
+                    0.578596,
+                    0.578596
+                ],
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.01
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "glass",
             "name": "WineGlasses",
             "param": {
                 "material_name": "LASF9",
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0
-                        }
-                    }
-                },
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "ior": 1.5,
+                "roughness":
+                    0
+                ,
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
         },
         {
             "type": "substrate",
             "name": "Tabletop",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/Tabletop-light.jpg",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/Tabletop-light.jpg",
+                    "color_space": "srgb"
                 },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.025
-                        }
-                    }
-                },
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.025
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "diffuse",
             "name": "ChoppingBoard",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/Chopping-Board.jpg",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/Chopping-Board.jpg",
+                    "color_space": "srgb"
                 }
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "diffuse",
             "name": "CupboardUnits",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.547857,
-                                0.547857,
-                                0.547857
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.547857,
+                    0.547857,
+                    0.547857
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "BookCover",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.08056376874446869,
-                                0.08130895346403122,
-                                0.08014672994613647
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.08056376874446869,
+                    0.08130895346403122,
+                    0.08014672994613647
+                ]
+            }
         },
         {
             "type": "substrate",
             "name": "LeftPage",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/Kitchen-book-leftpage.jpg",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/Kitchen-book-leftpage.jpg",
+                    "color_space": "srgb"
                 },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.05
-                        }
-                    }
-                },
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.05
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "BookPages",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/Kitchen-bookpage-large.jpg",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/Kitchen-bookpage-large.jpg",
+                    "color_space": "srgb"
                 },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.05
-                        }
-                    }
-                },
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.05
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "diffuse",
             "name": "Carrots",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/Kitchen-carrot-uv.png",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/Kitchen-carrot-uv.png",
+                    "color_space": "srgb"
                 }
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "Tomatoes",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.5924380421638489,
-                                0.0,
-                                0.002932318253442645
-                            ]
-                        }
-                    }
-                },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "color": [
+                    0.5924380421638489,
+                    0.0,
+                    0.002932318253442645
+                ],
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "Pepper-Green",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.030256517231464386,
-                                0.19751642644405365,
-                                0.0
-                            ]
-                        }
-                    }
-                },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "color": [
+                    0.030256517231464386,
+                    0.19751642644405365,
+                    0.0
+                ],
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "Pepper-Yellow",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                0.20471011102199554,
-                                0.0
-                            ]
-                        }
-                    }
-                },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "color": [
+                    1.0,
+                    0.20471011102199554,
+                    0.0
+                ],
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "Pepper-Red",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.47617727518081665,
-                                0.0,
-                                0.0
-                            ]
-                        }
-                    }
-                },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "color": [
+                    0.47617727518081665,
+                    0.0,
+                    0.0
+                ],
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "diffuse",
             "name": "Mushrooms",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.3008372485637665,
-                                0.28143516182899475,
-                                0.24318942427635193
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.3008372485637665,
+                    0.28143516182899475,
+                    0.24318942427635193
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "SlicedMushroms",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/Kitchen-mushroom-texture.png",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/Kitchen-mushroom-texture.png",
+                    "color_space": "srgb"
                 }
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "metal",
             "name": "ChoppingKnifeBlade",
             "param": {
                 "material_name": "Cr",
-                "eta": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "k": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.02
-                        }
-                    }
-                },
+                "eta": [
+                    0,
+                    0,
+                    0
+                ],
+                "k": [
+                    0,
+                    0,
+                    0
+                ],
+                "roughness":
+                    0.02
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "ChoppingKnifeHandle",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.028991,
-                                0.028991,
-                                0.028991
-                            ]
-                        }
-                    }
-                },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "color": [
+                    0.028991,
+                    0.028991,
+                    0.028991
+                ],
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "metal",
             "name": "ChoppingKnifeEdge",
             "param": {
                 "material_name": "Al",
-                "eta": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "k": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "eta": [
+                    0,
+                    0,
+                    0
+                ],
+                "k": [
+                    0,
+                    0,
+                    0
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "WhitePot",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.578596,
-                                0.578596,
-                                0.578596
-                            ]
-                        }
-                    }
-                },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.01
-                        }
-                    }
-                },
+                "color": [
+                    0.578596,
+                    0.578596,
+                    0.578596
+                ],
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.01
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "Worktops",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/Worktopt-light.jpg",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/Worktopt-light.jpg",
+                    "color_space": "srgb"
                 },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "diffuse",
             "name": "Towel",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/Tea-Towel.jpg",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/Tea-Towel.jpg",
+                    "color_space": "srgb"
                 }
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "diffuse",
             "name": "Tiles",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.3940831422805786,
-                                0.3250369727611542,
-                                0.26317474246025085
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.3940831422805786,
+                    0.3250369727611542,
+                    0.26317474246025085
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "WallSocket",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.5717648267745972,
-                                0.563535213470459,
-                                0.5599715113639832
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.5717648267745972,
+                    0.563535213470459,
+                    0.5599715113639832
+                ]
+            }
         },
         {
             "type": "substrate",
             "name": "CookerBlack",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.015396,
-                                0.015396,
-                                0.015396
-                            ]
-                        }
-                    }
-                },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.08
-                        }
-                    }
-                },
+                "color": [
+                    0.015396,
+                    0.015396,
+                    0.015396
+                ],
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.08
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "CookerIron",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.001373,
-                                0.001373,
-                                0.001373
-                            ]
-                        }
-                    }
-                },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.02
-                        }
-                    }
-                },
+                "color": [
+                    0.001373,
+                    0.001373,
+                    0.001373
+                ],
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.02
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "glass",
             "name": "CookerGlass",
             "param": {
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
+                "ior": 1.5,
                 "material_name": "LASF9",
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0
-                        }
-                    }
-                },
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "roughness":
+                    0
+                ,
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
         },
         {
             "type": "metal",
             "name": "CookerChrome",
             "param": {
                 "material_name": "Cr",
-                "eta": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "k": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "eta": [
+                    0,
+                    0,
+                    0
+                ],
+                "k": [
+                    0,
+                    0,
+                    0
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "metal",
             "name": "BushLogo",
             "param": {
                 "material_name": "Al",
-                "eta": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "k": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "eta": [
+                    0,
+                    0,
+                    0
+                ],
+                "k": [
+                    0,
+                    0,
+                    0
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "metal",
             "name": "RadioMetalRing",
             "param": {
                 "material_name": "Cr",
-                "eta": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "k": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "eta": [
+                    0,
+                    0,
+                    0
+                ],
+                "k": [
+                    0,
+                    0,
+                    0
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "diffuse",
             "name": "RadioDialBack",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/radio-dial-idea.jpg",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/radio-dial-idea.jpg",
+                    "color_space": "srgb"
                 }
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "mirror",
             "name": "RadioDialLine",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.001
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "roughness": 0.001
+            }
         },
         {
             "type": "glass",
             "name": "MicrowaveGlass",
             "param": {
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
+                "ior": 1.5,
                 "material_name": "LASF9",
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0
-                        }
-                    }
-                },
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "roughness":
+                    0
+                ,
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
         },
         {
             "type": "metal",
             "name": "Microwave",
             "param": {
                 "material_name": "Al",
-                "eta": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "k": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "eta": [
+                    0,
+                    0,
+                    0
+                ],
+                "k": [
+                    0,
+                    0,
+                    0
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "metal",
             "name": "MicrowaveBack",
             "param": {
                 "material_name": "Al",
-                "eta": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "k": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "eta": [
+                    0,
+                    0,
+                    0
+                ],
+                "k": [
+                    0,
+                    0,
+                    0
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "glass",
             "name": "MicrowaveDigital",
             "param": {
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
+                "ior": 1.5,
                 "material_name": "LASF9",
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0
-                        }
-                    }
-                },
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "roughness":
+                    0
+                ,
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "WindowFrame",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.572423,
-                                0.572423,
-                                0.572423
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.572423,
+                    0.572423,
+                    0.572423
+                ]
+            }
         },
         {
             "type": "principled_bsdf",
             "name": "Blinds",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.5
-                        }
-                    }
-                },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.45
-                        }
-                    }
-                },
-                "metallic": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.0
-                        }
-                    }
-                },
-                "spec_tint": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                },
-                "anisotropic": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.0
-                        }
-                    }
-                },
-                "sheen_weight": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.0
-                        }
-                    }
-                },
-                "sheen_roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.5
-                        }
-                    }
-                },
-                "sheen_tint": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                },
-                "coat_weight": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.0
-                        }
-                    }
-                },
-                "coat_roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.03
-                        }
-                    }
-                },
-                "coat_ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "coat_tint": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                },
-                "subsurface_weight": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.0
-                        }
-                    }
-                },
-                "subsurface_radius": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                0.2,
-                                0.1
-                            ]
-                        }
-                    }
-                },
-                "subsurface_scale": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.05
-                        }
-                    }
-                },
-                "transmission_weight": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.0
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "ior": 1.5,
+                "roughness": 0.1,
+                "metallic": 0,
+                "spec_tint": 0.9,
+                "anisotropic": 0,
+                "sheen": 0.0,
+                "sheen_tint": 0.0,
+                "clearcoat": 0.59,
+                "clearcoat_alpha": 0.38,
+                "spec_trans": 0,
+                "flatness": 0,
+                "scatter_distance": [
+                    0,
+                    0,
+                    0
+                ],
+                "diff_trans": 0,
+                "thin": false
+            }
         },
         {
             "type": "diffuse",
             "name": "BlindStringKnob",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.578596,
-                                0.578596,
-                                0.578596
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.578596,
+                    0.578596,
+                    0.578596
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "BlindString",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.217638,
-                                0.217638,
-                                0.217638
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.217638,
+                    0.217638,
+                    0.217638
+                ]
+            }
         },
         {
             "type": "mirror",
             "name": "WindowLock",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.578596,
-                                0.578596,
-                                0.578596
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.001
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.578596,
+                    0.578596,
+                    0.578596
+                ],
+                "roughness": 0.001
+            }
         },
         {
             "type": "diffuse",
             "name": "TableMats",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.047366,
-                                0.047366,
-                                0.047366
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.047366,
+                    0.047366,
+                    0.047366
+                ]
+            }
         },
         {
             "type": "metal",
             "name": "Cutlery",
             "param": {
                 "material_name": "Cr",
-                "eta": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "k": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "eta": [
+                    0,
+                    0,
+                    0
+                ],
+                "k": [
+                    0,
+                    0,
+                    0
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "diffuse",
             "name": "Home",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.578596,
-                                0.578596,
-                                0.578596
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.578596,
+                    0.578596,
+                    0.578596
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "Cushion1",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/cushion-red.jpg",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/cushion-red.jpg",
+                    "color_space": "srgb"
                 }
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "TableCross",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.612066,
-                                0.612066,
-                                0.612066
-                            ]
-                        }
-                    }
-                },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "color": [
+                    0.612066,
+                    0.612066,
+                    0.612066
+                ],
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "PotHandles",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.00631,
-                                0.00631,
-                                0.00631
-                            ]
-                        }
-                    }
-                },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "color": [
+                    0.00631,
+                    0.00631,
+                    0.00631
+                ],
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "metal",
             "name": "Kettle",
             "param": {
                 "material_name": "Cr",
-                "eta": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "k": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.05
-                        }
-                    }
-                },
+                "eta": [
+                    0,
+                    0,
+                    0
+                ],
+                "k": [
+                    0,
+                    0,
+                    0
+                ],
+                "roughness":
+                    0.05
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "KettleHandle",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.00631,
-                                0.00631,
-                                0.00631
-                            ]
-                        }
-                    }
-                },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "color": [
+                    0.00631,
+                    0.00631,
+                    0.00631
+                ],
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "metal",
             "name": "Burners",
             "param": {
                 "material_name": "Al",
-                "eta": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "k": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "eta": [
+                    0,
+                    0,
+                    0
+                ],
+                "k": [
+                    0,
+                    0,
+                    0
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "BurnersTop",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.00631,
-                                0.00631,
-                                0.00631
-                            ]
-                        }
-                    }
-                },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "color": [
+                    0.00631,
+                    0.00631,
+                    0.00631
+                ],
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "metal",
             "name": "BreadBinHandle",
             "param": {
                 "material_name": "Cr",
-                "eta": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "k": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "eta": [
+                    0,
+                    0,
+                    0
+                ],
+                "k": [
+                    0,
+                    0,
+                    0
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "diffuse",
             "name": "BreadBinFront",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/Worktopt-light.jpg",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/Worktopt-light.jpg",
+                    "color_space": "srgb"
                 }
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "diffuse",
             "name": "BreadBinSides",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/Worktopt-light.jpg",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/Worktopt-light.jpg",
+                    "color_space": "srgb"
                 }
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "diffuse",
             "name": "BreadBinTop",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/Worktopt-light.jpg",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/Worktopt-light.jpg",
+                    "color_space": "srgb"
                 }
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "WoodTop",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/Tabletop-light.jpg",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/Tabletop-light.jpg",
+                    "color_space": "srgb"
                 },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "diffuse",
             "name": "CushionTies",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/cushion-red.jpg",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/cushion-red.jpg",
+                    "color_space": "srgb"
                 }
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "Cable",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.612066,
-                                0.612066,
-                                0.612066
-                            ]
-                        }
-                    }
-                },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "color": [
+                    0.612066,
+                    0.612066,
+                    0.612066
+                ],
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "CeilingLightFitting",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.578596,
-                                0.578596,
-                                0.578596
-                            ]
-                        }
-                    }
-                },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "color": [
+                    0.578596,
+                    0.578596,
+                    0.578596
+                ],
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "substrate",
             "name": "Floor",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/wood.jpg",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/wood.jpg",
+                    "color_space": "srgb"
                 },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "diffuse",
             "name": "Ceiling",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.612066,
-                                0.612066,
-                                0.612066
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.612066,
+                    0.612066,
+                    0.612066
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "MushroomEnds",
             "param": {
                 "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "image",
-                        "param": {
-                            "fn": "textures/Kitchen-mushroom-texture.png",
-                            "color_space": "srgb"
-                        }
-                    }
+                    "fn": "textures/Kitchen-mushroom-texture.png",
+                    "color_space": "srgb"
                 }
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "diffuse",
             "name": "PepperStems",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.13609854876995087,
-                                0.28445208072662354,
-                                0.0055217444896698
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.13609854876995087,
+                    0.28445208072662354,
+                    0.0055217444896698
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "Bulb",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "Grout",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.79311,
-                                0.79311,
-                                0.79311
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.79311,
+                    0.79311,
+                    0.79311
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "LampCable",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.479179,
-                                0.479179,
-                                0.479179
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.479179,
+                    0.479179,
+                    0.479179
+                ]
+            }
         },
         {
             "type": "substrate",
             "name": "Lamp",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.5417983531951904,
-                                0.2976526618003845,
-                                0.05284162983298302
-                            ]
-                        }
-                    }
-                },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "specular": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.04,
-                                0.04,
-                                0.04
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
+                "color": [
+                    0.5417983531951904,
+                    0.2976526618003845,
+                    0.05284162983298302
+                ],
+                "ior": 1.5,
+                "specular": [
+                    0.04,
+                    0.04,
+                    0.04
+                ],
+                "roughness":
+                    0.1
+                ,
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "diffuse",
             "name": "LampInside",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.578596,
-                                0.578596,
-                                0.578596
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.578596,
+                    0.578596,
+                    0.578596
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "Window",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.5717648267745972,
-                                0.563535213470459,
-                                0.5599715113639832
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.5717648267745972,
+                    0.563535213470459,
+                    0.5599715113639832
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "Skirting",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.578913,
-                                0.578913,
-                                0.578913
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.578913,
+                    0.578913,
+                    0.578913
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "BlindEnds",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.047366,
-                                0.047366,
-                                0.047366
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.047366,
+                    0.047366,
+                    0.047366
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "BlindWoodStrip",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.578596,
-                                0.578596,
-                                0.578596
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0.578596,
+                    0.578596,
+                    0.578596
+                ]
+            }
         },
         {
             "type": "mirror",
             "name": "RadioEdges",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.001
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "roughness": 0.001
+            }
         },
         {
             "type": "diffuse",
             "name": "shape_295_material",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "shape_296_material",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "shape_297_material",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "shape_298_material",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            }
         }
     ],
     "sampler": {
@@ -15318,28 +13442,32 @@
     "warper": {
         "type": "alias_table"
     },
-    "integrator": {
-        "type": "pt",
-        "param": {
+    "integrator" : {
+//        "type" : "rt",
+        		"type" : "pt",
+        "param" : {
             "direct": {
                 "spatial": {
+//                                        					"open": false,
                     "theta": 5,
                     "depth": 0.3,
                     "radius": 30,
                     "sample_num": 1
                 },
                 "temporal": {
+//                                        					"open": false,
                     "theta": 5,
                     "depth": 0.1,
                     "radius": 0,
                     "motion_vec": 0.15,
                     "history_limit": 20
                 },
+//                				"mis": true,
                 "M": 10
             },
-            "min_depth": 5,
-            "max_depth": 16,
-            "rr_threshold": 1
+            "min_depth" : 5,
+            "max_depth" : 16,
+            "rr_threshold" : 1
         }
     },
     "camera": {
@@ -15371,15 +13499,19 @@
             "radiance_collector": {
                 "type": "normal",
                 "param": {
-                    "exposure": 0.8,
+                    "exposure" : 0.8,
+//                    "accumulation": 0,
                     "resolution": [
                         1920,
                         1080
                     ],
-                    "tone_mapper": {
+                    "tone_mapper" : {
+                        //												"type": "reinhard",
+                        //												"type": "linear",
                         "type": "aces",
-                        "param": {
-                            "exposure": 1.0
+                        //						"type" : "exposure",
+                        "param" : {
+                            "exposure" : 1.0
                         }
                     },
                     "fb_state": 0
@@ -15389,7 +13521,7 @@
                 "type": "triangle",
                 "name": "boxFilter",
                 "param": {
-                    "radius": 1
+                    "radius":1
                 }
             }
         }
@@ -15397,7 +13529,7 @@
     "spectrum": {
         "type": "srgb",
         "param": {
-            "dimension": 3
+            "dimension" : 3
         }
     },
     "light_sampler": {
@@ -15409,21 +13541,21 @@
     "pipeline": {
         "type": "fixed",
         "param": {
-            "obfuscation": false,
-            "valid_check": false,
-            "frame_buffer": {
+            "obfuscation" : false,
+            "valid_check" : false,
+            "frame_buffer" : {
                 "accumulation": 0,
-                "type": "normal",
-                "param": {
-                    "resolution": [
+                "type" : "normal",
+                "param" : {
+                    "resolution" : [
                         1920,
                         1080
                     ],
-                    "fb_state": 0,
-                    "tone_mapper": {
+                    "fb_state" : 0,
+                    "tone_mapper" : {
                         "type": "aces",
-                        "param": {
-                            "exposure": 1.0
+                        "param" : {
+                            "exposure" : 1.0
                         }
                     }
                 }
@@ -15431,7 +13563,7 @@
         }
     },
     "render_setting": {
-        "polymorphic_mode": 1
+        "polymorphic_mode" : 1
     },
     "output": {
         "spp": 0,

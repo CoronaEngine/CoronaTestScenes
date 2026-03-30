@@ -699,278 +699,119 @@
             "name": "Backdrop",
             "param": {
                 "material_name": "V",
-                "eta": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "k": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "xy",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.1,
-                                0.1
-                            ]
-                        }
-                    }
-                },
+                "eta": [
+                    0,
+                    0,
+                    0
+                ],
+                "k": [
+                    0,
+                    0,
+                    0
+                ],
+                "roughness": [
+                    0.1,
+                    0.1
+                ],
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "metal",
             "name": "Floor",
             "param": {
                 "material_name": "Al",
-                "eta": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "k": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "xy",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0.1,
-                                0.1
-                            ]
-                        }
-                    }
-                },
+                "eta": [
+                    0,
+                    0,
+                    0
+                ],
+                "k": [
+                    0,
+                    0,
+                    0
+                ],
+                "roughness": [
+                    0.1,
+                    0.1
+                ],
                 "remapping_roughness": false
-            },
-            "node_tab": {}
+            }
         },
         {
             "type": "glass",
             "name": "WaterAir",
             "param": {
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.33
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "xy",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "ior": 1.33,
+                "roughness": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
         },
         {
             "type": "glass",
             "name": "IceAir",
             "param": {
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.31
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "xy",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "ior": 1.31,
+                "roughness": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
         },
         {
             "type": "glass",
             "name": "Glass",
             "param": {
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "xy",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "ior": 1.5,
+                "roughness": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
         },
         {
             "type": "glass",
             "name": "AirIce",
             "param": {
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.763
-                        }
-                    }
-                },
-                "roughness": {
-                    "channels": "xy",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                1.0,
-                                1.0,
-                                1.0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "ior": 0.763,
+                "roughness": [
+                    0,
+                    0
+                ],
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            }
         },
         {
             "type": "diffuse",
             "name": "shape_16_material",
             "param": {
-                "color": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                }
-            },
-            "node_tab": {}
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            }
         }
     ],
     "sampler": {
@@ -1042,21 +883,21 @@
     "pipeline": {
         "type": "fixed",
         "param": {
-            "obfuscation": false,
-            "valid_check": false,
-            "frame_buffer": {
+            "obfuscation" : false,
+            "valid_check" : false,
+            "frame_buffer" : {
                 "accumulation": 0,
-                "type": "normal",
-                "param": {
-                    "resolution": [
+                "type" : "normal",
+                "param" : {
+                    "resolution" : [
                         1280,
                         720
                     ],
-                    "fb_state": 0,
-                    "tone_mapper": {
+                    "fb_state" : 0,
+                    "tone_mapper" : {
                         "type": "aces",
-                        "param": {
-                            "exposure": 1.0
+                        "param" : {
+                            "exposure" : 1.0
                         }
                     }
                 }
