@@ -321,11 +321,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            20.0,
-                            3.0,
-                            3.0
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        20.0,
+                                        3.0,
+                                        3.0
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": false,
                         "scale": 1
                     }
@@ -773,11 +781,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            3.886280059814453,
-                            3.772550106048584,
-                            3.4313700199127197
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        3.886280059814453,
+                                        3.772550106048584,
+                                        3.4313700199127197
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": false,
                         "scale": 1
                     }
@@ -3585,11 +3601,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            9.0,
-                            9.0,
-                            10.0
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        9.0,
+                                        9.0,
+                                        10.0
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": false,
                         "scale": 1
                     }
@@ -3637,11 +3661,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            9.0,
-                            9.0,
-                            10.0
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        9.0,
+                                        9.0,
+                                        10.0
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": false,
                         "scale": 1
                     }
@@ -4353,18 +4385,35 @@
                 {
                     "type": "spherical",
                     "param": {
-                        "color": [
-                            1,
-                            1,
-                            1
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        1,
+                                        1,
+                                        1
+                                    ]
+                                }
+                            }
+                        },
                         "o2w": {
                             "type": "Euler",
                             "param": {
                                 "yaw": 0
                             }
                         },
-                        "scale": 1
+                        "scale": 1,
+                        "strength": {
+                            "channels": "x",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": 1
+                                }
+                            }
+                        }
                     }
                 }
             ]

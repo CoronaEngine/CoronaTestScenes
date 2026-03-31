@@ -2881,11 +2881,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            125.0,
-                            100.0,
-                            75.0
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        125.0,
+                                        100.0,
+                                        75.0
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": false,
                         "scale": 0.3
                     }
@@ -3741,8 +3749,14 @@
                     "type": "spherical",
                     "param": {
                         "color": {
-                            "fn": "textures/spruit_sunrise_2k.hdr",
-                            "color_space": "linear"
+                            "channels": "xyz",
+                            "node": {
+                                "type": "image",
+                                "param": {
+                                    "fn": "textures/spruit_sunrise_2k.hdr",
+                                    "color_space": "linear"
+                                }
+                            }
                         },
                         "o2w": {
                             "type": "Euler",
@@ -3750,7 +3764,16 @@
                                 "yaw": -30
                             }
                         },
-                        "scale": 3
+                        "scale": 3,
+                        "strength": {
+                            "channels": "x",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": 3
+                                }
+                            }
+                        }
                     }
                 }
             ]

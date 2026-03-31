@@ -801,11 +801,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            1.5,
-                            1.5,
-                            1.5
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        1.5,
+                                        1.5,
+                                        1.5
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": true,
                         "scale": 1
                     }
@@ -853,11 +861,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            1.5,
-                            1.5,
-                            1.5
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        1.5,
+                                        1.5,
+                                        1.5
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": true,
                         "scale": 1
                     }
@@ -905,11 +921,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            1.5,
-                            1.5,
-                            1.5
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        1.5,
+                                        1.5,
+                                        1.5
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": true,
                         "scale": 1
                     }
@@ -957,11 +981,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            1.5,
-                            1.5,
-                            1.5
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        1.5,
+                                        1.5,
+                                        1.5
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": true,
                         "scale": 1
                     }
@@ -1009,11 +1041,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            1.5,
-                            1.5,
-                            1.5
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        1.5,
+                                        1.5,
+                                        1.5
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": true,
                         "scale": 1
                     }
@@ -1061,11 +1101,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            1.5,
-                            1.5,
-                            1.5
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        1.5,
+                                        1.5,
+                                        1.5
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": true,
                         "scale": 1
                     }
@@ -1113,11 +1161,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            1.5,
-                            1.5,
-                            1.5
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        1.5,
+                                        1.5,
+                                        1.5
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": true,
                         "scale": 1
                     }
@@ -1165,11 +1221,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            1.5,
-                            1.5,
-                            1.5
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        1.5,
+                                        1.5,
+                                        1.5
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": true,
                         "scale": 1
                     }
@@ -1217,11 +1281,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            1.5,
-                            1.5,
-                            1.5
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        1.5,
+                                        1.5,
+                                        1.5
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": true,
                         "scale": 1
                     }
@@ -1269,11 +1341,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            0.6366197466850281,
-                            0.6366197466850281,
-                            0.6366197466850281
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        0.6366197466850281,
+                                        0.6366197466850281,
+                                        0.6366197466850281
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": true,
                         "scale": 3
                     }
@@ -1321,11 +1401,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            4.575004577636719,
-                            3.5907576084136963,
-                            1.5497708320617676
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        4.575004577636719,
+                                        3.5907576084136963,
+                                        1.5497708320617676
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": true,
                         "scale": 1
                     }
@@ -1373,11 +1461,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            4.575004577636719,
-                            3.5907576084136963,
-                            1.5497708320617676
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        4.575004577636719,
+                                        3.5907576084136963,
+                                        1.5497708320617676
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": true,
                         "scale": 1
                     }
@@ -1425,11 +1521,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            0.6366197466850281,
-                            0.6366197466850281,
-                            0.6366197466850281
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        0.6366197466850281,
+                                        0.6366197466850281,
+                                        0.6366197466850281
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": true,
                         "scale": 30
                     }

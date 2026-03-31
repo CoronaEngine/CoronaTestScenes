@@ -31001,11 +31001,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            30,
-                            30,
-                            30
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        30,
+                                        30,
+                                        30
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": false,
                         "scale": 1
                     }

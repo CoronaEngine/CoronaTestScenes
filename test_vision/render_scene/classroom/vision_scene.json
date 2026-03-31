@@ -4435,8 +4435,14 @@
                     "param": {
                         "flip_u": true,
                         "color": {
-                            "fn": "textures/spaichingen_hill_2k.exr",
-                            "color_space": "linear"
+                            "channels": "xyz",
+                            "node": {
+                                "type": "image",
+                                "param": {
+                                    "fn": "textures/spaichingen_hill_2k.exr",
+                                    "color_space": "linear"
+                                }
+                            }
                         },
                         "o2w": {
                             "type": "Euler",
@@ -4444,7 +4450,16 @@
                                 "yaw": -30
                             }
                         },
-                        "scale": 300
+                        "scale": 300,
+                        "strength": {
+                            "channels": "x",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": 300
+                                }
+                            }
+                        }
                     }
                 }
             ]
