@@ -5,94 +5,227 @@
             "type": "SubstrateMaterial",
             "name": "Plastic_Orange",
             "param": {
-                "color": [
-                    1.0,
-                    0.37867626547813416,
-                    0.013473397120833397
-                ],
-                "eta": 1.5,
-                "specular": [
-                    0.04,
-                    0.04,
-                    0.04
-                ],
-                "roughness": [
-                    0.01,
-                    0.01
-                ],
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                1.0,
+                                0.37867626547813416,
+                                0.013473397120833397
+                            ]
+                        }
+                    }
+                },
+                "eta": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 1.5
+                        }
+                    }
+                },
+                "specular": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.04,
+                                0.04,
+                                0.04
+                            ]
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "xy",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.01,
+                                0.01
+                            ]
+                        }
+                    }
+                },
                 "remapping_roughness": false
-            }
+            },
+            "node_tab": {}
         },
         {
             "type": "SubstrateMaterial",
             "name": "Plastic_Black",
             "param": {
-                "color": [
-                    0.00631,
-                    0.00631,
-                    0.00631
-                ],
-                "eta": 1.5,
-                "specular": [
-                    0.04,
-                    0.04,
-                    0.04
-                ],
-                "roughness": [
-                    0.1,
-                    0.1
-                ],
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.00631,
+                                0.00631,
+                                0.00631
+                            ]
+                        }
+                    }
+                },
+                "eta": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 1.5
+                        }
+                    }
+                },
+                "specular": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.04,
+                                0.04,
+                                0.04
+                            ]
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "xy",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.1,
+                                0.1
+                            ]
+                        }
+                    }
+                },
                 "remapping_roughness": false
-            }
+            },
+            "node_tab": {}
         },
         {
             "type": "GlassMaterial",
             "name": "Glass",
             "param": {
-                "eta": 1.5,
-                "roughness": [
-                    0,
-                    0
-                ],
-                "color": [
-                    1.0,
-                    1.0,
-                    1.0
-                ]
-            }
+                "eta": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 1.5
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "xy",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        }
+                    }
+                }
+            },
+            "node_tab": {}
         },
         {
             "type": "MirrorMaterial",
             "name": "Metal",
             "param": {
-                "color": [
-                    1.0,
-                    1.0,
-                    1.0
-                ]
-            }
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        }
+                    }
+                }
+            },
+            "node_tab": {}
         },
         {
             "type": "SubstrateMaterial",
             "name": "Floor",
             "param": {
-                "color": [
-                    0.578596,
-                    0.578596,
-                    0.578596
-                ],
-                "eta": 1.5,
-                "specular": [
-                    0.04,
-                    0.04,
-                    0.04
-                ],
-                "roughness": [
-                    0.01,
-                    0.01
-                ],
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.578596,
+                                0.578596,
+                                0.578596
+                            ]
+                        }
+                    }
+                },
+                "eta": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 1.5
+                        }
+                    }
+                },
+                "specular": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.04,
+                                0.04,
+                                0.04
+                            ]
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "xy",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.01,
+                                0.01
+                            ]
+                        }
+                    }
+                },
                 "remapping_roughness": false
-            }
+            },
+            "node_tab": {}
         }
     ],
     "shapes": [

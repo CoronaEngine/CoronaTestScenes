@@ -31001,11 +31001,19 @@
                 "emission": {
                     "type": "area",
                     "param": {
-                        "color": [
-                            30,
-                            30,
-                            30
-                        ],
+                        "color": {
+                            "channels": "xyz",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": [
+                                        30,
+                                        30,
+                                        30
+                                    ]
+                                }
+                            }
+                        },
                         "two_sided": false,
                         "scale": 1
                     }
@@ -31019,392 +31027,839 @@
             "name": "WoodFloor",
             "param": {
                 "color": {
-                    "fn": "textures/WoodFloor.jpg",
-                    "color_space": "srgb"
+                    "channels": "xyz",
+                    "node": {
+                        "type": "image",
+                        "param": {
+                            "fn": "textures/WoodFloor.jpg",
+                            "color_space": "srgb"
+                        }
+                    }
                 },
-                "ior": 1.5,
-                "specular": [
-                    0.04,
-                    0.04,
-                    0.04
-                ],
-                "roughness": [
-                    0.1,
-                    0.1
-                ],
+                "ior": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 1.5
+                        }
+                    }
+                },
+                "specular": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.04,
+                                0.04,
+                                0.04
+                            ]
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "xy",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.1,
+                                0.1
+                            ]
+                        }
+                    }
+                },
                 "remapping_roughness": false
-            }
+            },
+            "node_tab": {}
         },
         {
             "type": "substrate",
             "name": "WoodStairs",
             "param": {
                 "color": {
-                    "fn": "textures/WoodPanel.jpg",
-                    "color_space": "srgb"
+                    "channels": "xyz",
+                    "node": {
+                        "type": "image",
+                        "param": {
+                            "fn": "textures/WoodPanel.jpg",
+                            "color_space": "srgb"
+                        }
+                    }
                 },
-                "ior": 1.5,
-                "specular": [
-                    0.04,
-                    0.04,
-                    0.04
-                ],
-                "roughness": [
-                    0.1,
-                    0.1
-                ],
+                "ior": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 1.5
+                        }
+                    }
+                },
+                "specular": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.04,
+                                0.04,
+                                0.04
+                            ]
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "xy",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.1,
+                                0.1
+                            ]
+                        }
+                    }
+                },
                 "remapping_roughness": false
-            }
+            },
+            "node_tab": {}
         },
         {
             "type": "substrate",
             "name": "WoodChair",
             "param": {
                 "color": {
-                    "fn": "textures/Wood.jpg",
-                    "color_space": "srgb"
+                    "channels": "xyz",
+                    "node": {
+                        "type": "image",
+                        "param": {
+                            "fn": "textures/Wood.jpg",
+                            "color_space": "srgb"
+                        }
+                    }
                 },
-                "ior": 1.5,
-                "specular": [
-                    0.04,
-                    0.04,
-                    0.04
-                ],
-                "roughness": [
-                    0.1,
-                    0.1
-                ],
+                "ior": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 1.5
+                        }
+                    }
+                },
+                "specular": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.04,
+                                0.04,
+                                0.04
+                            ]
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "xy",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.1,
+                                0.1
+                            ]
+                        }
+                    }
+                },
                 "remapping_roughness": false
-            }
+            },
+            "node_tab": {}
         },
         {
             "type": "substrate",
             "name": "WoodLamp",
             "param": {
                 "color": {
-                    "fn": "textures/WoodChair.jpg",
-                    "color_space": "srgb"
+                    "channels": "xyz",
+                    "node": {
+                        "type": "image",
+                        "param": {
+                            "fn": "textures/WoodChair.jpg",
+                            "color_space": "srgb"
+                        }
+                    }
                 },
-                "ior": 1.5,
-                "specular": [
-                    0.04,
-                    0.04,
-                    0.04
-                ],
-                "roughness": [
-                    0.1,
-                    0.1
-                ],
+                "ior": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 1.5
+                        }
+                    }
+                },
+                "specular": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.04,
+                                0.04,
+                                0.04
+                            ]
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "xy",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.1,
+                                0.1
+                            ]
+                        }
+                    }
+                },
                 "remapping_roughness": false
-            }
+            },
+            "node_tab": {}
         },
         {
             "type": "diffuse",
             "name": "Lampshade",
             "param": {
                 "color": {
-                    "fn": "textures/Fabric.jpg",
-                    "color_space": "srgb"
+                    "channels": "xyz",
+                    "node": {
+                        "type": "image",
+                        "param": {
+                            "fn": "textures/Fabric.jpg",
+                            "color_space": "srgb"
+                        }
+                    }
                 }
-            }
+            },
+            "node_tab": {}
         },
         {
             "type": "metal",
             "name": "Brass",
             "param": {
                 "material_name": "VN",
-                "eta": [
-                    0,
-                    0,
-                    0
-                ],
-                "k": [
-                    0,
-                    0,
-                    0
-                ],
-                "roughness": [
-                    0.1,
-                    0.1
-                ],
+                "eta": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                "k": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "xy",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.1,
+                                0.1
+                            ]
+                        }
+                    }
+                },
                 "remapping_roughness": false
-            }
+            },
+            "node_tab": {}
         },
         {
             "type": "metal",
             "name": "BrushedAluminium",
             "param": {
                 "material_name": "Al",
-                "eta": [
-                    0,
-                    0,
-                    0
-                ],
-                "k": [
-                    0,
-                    0,
-                    0
-                ],
-                "roughness": [
-                    0.1,
-                    0.1
-                ],
+                "eta": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                "k": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "xy",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.1,
+                                0.1
+                            ]
+                        }
+                    }
+                },
                 "remapping_roughness": false
-            }
+            },
+            "node_tab": {}
         },
         {
             "type": "diffuse",
             "name": "ChairSeat",
             "param": {
-                "color": [
-                    0.11764699965715408,
-                    0.05490199849009514,
-                    0.06666669994592667
-                ]
-            }
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.11764699965715408,
+                                0.05490199849009514,
+                                0.06666669994592667
+                            ]
+                        }
+                    }
+                }
+            },
+            "node_tab": {}
         },
         {
             "type": "glass",
             "name": "Glass",
             "param": {
-                "ior": 1.5,
-                "roughness": [
-                    0,
-                    0
-                ],
-                "color": [
-                    1.0,
-                    1.0,
-                    1.0
-                ]
-            }
+                "ior": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 1.5
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "xy",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        }
+                    }
+                }
+            },
+            "node_tab": {}
         },
         {
             "type": "substrate",
             "name": "MagnoliaPaint",
             "param": {
-                "color": [
-                    0.578596,
-                    0.578596,
-                    0.578596
-                ],
-                "ior": 1.5,
-                "specular": [
-                    0.04,
-                    0.04,
-                    0.04
-                ],
-                "roughness": [
-                    0.1,
-                    0.1
-                ],
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.578596,
+                                0.578596,
+                                0.578596
+                            ]
+                        }
+                    }
+                },
+                "ior": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 1.5
+                        }
+                    }
+                },
+                "specular": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.04,
+                                0.04,
+                                0.04
+                            ]
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "xy",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.1,
+                                0.1
+                            ]
+                        }
+                    }
+                },
                 "remapping_roughness": false
-            }
+            },
+            "node_tab": {}
         },
         {
             "type": "substrate",
             "name": "WhitePaint",
             "param": {
-                "color": [
-                    0.578596,
-                    0.578596,
-                    0.578596
-                ],
-                "ior": 1.5,
-                "specular": [
-                    0.04,
-                    0.04,
-                    0.04
-                ],
-                "roughness": [
-                    0.2,
-                    0.2
-                ],
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.578596,
+                                0.578596,
+                                0.578596
+                            ]
+                        }
+                    }
+                },
+                "ior": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 1.5
+                        }
+                    }
+                },
+                "specular": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.04,
+                                0.04,
+                                0.04
+                            ]
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "xy",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.2,
+                                0.2
+                            ]
+                        }
+                    }
+                },
                 "remapping_roughness": false
-            }
+            },
+            "node_tab": {}
         },
         {
             "type": "diffuse",
             "name": "Painting1",
             "param": {
                 "color": {
-                    "fn": "textures/Painting1.jpg",
-                    "color_space": "srgb"
+                    "channels": "xyz",
+                    "node": {
+                        "type": "image",
+                        "param": {
+                            "fn": "textures/Painting1.jpg",
+                            "color_space": "srgb"
+                        }
+                    }
                 }
-            }
+            },
+            "node_tab": {}
         },
         {
             "type": "diffuse",
             "name": "Painting2",
             "param": {
                 "color": {
-                    "fn": "textures/Painting2.jpg",
-                    "color_space": "srgb"
+                    "channels": "xyz",
+                    "node": {
+                        "type": "image",
+                        "param": {
+                            "fn": "textures/Painting2.jpg",
+                            "color_space": "srgb"
+                        }
+                    }
                 }
-            }
+            },
+            "node_tab": {}
         },
         {
             "type": "diffuse",
             "name": "Painting3",
             "param": {
                 "color": {
-                    "fn": "textures/Painting3.jpg",
-                    "color_space": "srgb"
+                    "channels": "xyz",
+                    "node": {
+                        "type": "image",
+                        "param": {
+                            "fn": "textures/Painting3.jpg",
+                            "color_space": "srgb"
+                        }
+                    }
                 }
-            }
+            },
+            "node_tab": {}
         },
         {
             "type": "diffuse",
             "name": "Black",
             "param": {
-                "color": [
-                    0.01,
-                    0.01,
-                    0.01
-                ]
-            }
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.01,
+                                0.01,
+                                0.01
+                            ]
+                        }
+                    }
+                }
+            },
+            "node_tab": {}
         },
         {
             "type": "metal",
             "name": "StainlessSteel",
             "param": {
                 "material_name": "Al",
-                "eta": [
-                    0,
-                    0,
-                    0
-                ],
-                "k": [
-                    0,
-                    0,
-                    0
-                ],
-                "roughness": [
-                    0.01,
-                    0.01
-                ],
+                "eta": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                "k": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "xy",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.01,
+                                0.01
+                            ]
+                        }
+                    }
+                },
                 "remapping_roughness": false
-            }
+            },
+            "node_tab": {}
         },
         {
             "type": "diffuse",
             "name": "Emission",
             "param": {
-                "color": [
-                    1.0,
-                    1.0,
-                    1.0
-                ]
-            }
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        }
+                    }
+                }
+            },
+            "node_tab": {}
         },
         {
             "type": "diffuse",
             "name": "Candles",
             "param": {
-                "color": [
-                    0.578596,
-                    0.578596,
-                    0.578596
-                ]
-            }
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.578596,
+                                0.578596,
+                                0.578596
+                            ]
+                        }
+                    }
+                }
+            },
+            "node_tab": {}
         },
         {
             "type": "metal",
             "name": "Gold",
             "param": {
                 "material_name": "Au",
-                "eta": [
-                    0,
-                    0,
-                    0
-                ],
-                "k": [
-                    0,
-                    0,
-                    0
-                ],
-                "roughness": [
-                    0.01,
-                    0.01
-                ],
+                "eta": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                "k": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "xy",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.01,
+                                0.01
+                            ]
+                        }
+                    }
+                },
                 "remapping_roughness": false
-            }
+            },
+            "node_tab": {}
         },
         {
             "type": "diffuse",
             "name": "WhitePaint2",
             "param": {
-                "color": [
-                    0.578596,
-                    0.578596,
-                    0.578596
-                ]
-            }
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.578596,
+                                0.578596,
+                                0.578596
+                            ]
+                        }
+                    }
+                }
+            },
+            "node_tab": {}
         },
         {
             "type": "diffuse",
             "name": "White",
             "param": {
-                "color": [
-                    0.691535,
-                    0.691535,
-                    0.691535
-                ]
-            }
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.691535,
+                                0.691535,
+                                0.691535
+                            ]
+                        }
+                    }
+                }
+            },
+            "node_tab": {}
         },
         {
             "type": "diffuse",
             "name": "WhitePlastic",
             "param": {
-                "color": [
-                    0.578596,
-                    0.578596,
-                    0.578596
-                ]
-            }
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.578596,
+                                0.578596,
+                                0.578596
+                            ]
+                        }
+                    }
+                }
+            },
+            "node_tab": {}
         },
         {
             "type": "metal",
             "name": "Copper",
             "param": {
                 "material_name": "Li",
-                "eta": [
-                    0,
-                    0,
-                    0
-                ],
-                "k": [
-                    0,
-                    0,
-                    0
-                ],
-                "roughness": [
-                    0.01,
-                    0.01
-                ],
+                "eta": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                "k": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "xy",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.01,
+                                0.01
+                            ]
+                        }
+                    }
+                },
                 "remapping_roughness": false
-            }
+            },
+            "node_tab": {}
         },
         {
             "type": "diffuse",
             "name": "Wallpaper",
             "param": {
                 "color": {
-                    "fn": "textures/Wallpaper.jpg",
-                    "color_space": "srgb"
+                    "channels": "xyz",
+                    "node": {
+                        "type": "image",
+                        "param": {
+                            "fn": "textures/Wallpaper.jpg",
+                            "color_space": "srgb"
+                        }
+                    }
                 }
-            }
+            },
+            "node_tab": {}
         },
         {
             "type": "diffuse",
             "name": "shape_774_material",
             "param": {
-                "color": [
-                    0,
-                    0,
-                    0
-                ]
-            }
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0,
+                                0,
+                                0
+                            ]
+                        }
+                    }
+                }
+            },
+            "node_tab": {}
         }
     ],
     "sampler": {
@@ -31443,7 +31898,7 @@
             "radiance_collector": {
                 "type": "normal",
                 "param": {
-                    "accumulation":0,
+                    "accumulation": 0,
                     "resolution": [
                         720,
                         1280
@@ -31466,66 +31921,57 @@
     "warper": {
         "type": "alias_table"
     },
-    "integrator" : {
-        "type" : "rt",
-        //        		"type" : "pt",
-        "param" : {
-            //            "separate" : true,
+    "integrator": {
+        "type": "rt",
+        "param": {
             "direct": {
                 "spatial": {
-                    //                                        					"open": false,
                     "theta": 35,
                     "depth": 0.3,
                     "radius": 30,
                     "sample_num": 1
                 },
                 "temporal": {
-                    //                                        					"open": false,
                     "theta": 35,
                     "depth": 0.3,
                     "radius": 8,
                     "motion_vec": 0.15,
                     "history_limit": 20
                 },
-                //                				"mis": true,
                 "M_light": 10,
                 "M_bsdf": 1
             },
             "indirect": {
                 "spatial": {
-                    //					"open": false,
                     "theta": 35,
                     "depth": 0.3,
                     "radius": 30,
                     "sample_num": 1
                 },
                 "temporal": {
-                    //					"open": false,
-                    //					"mis": true,
                     "theta": 35,
                     "depth": 0.3,
                     "radius": 8,
                     "history_limit": 10
                 },
-                "correct_mode" : 0,
-                //                "open": false,
+                "correct_mode": 0,
                 "pairwise": true
             },
-            "denoiser" : {
-                "type" : "svgf",
-                "param" : {
+            "denoiser": {
+                "type": "svgf",
+                "param": {
                     "N": 3,
                     "filter": {
                         "type": "gaussian",
-                        "param" : {
+                        "param": {
                             "radius": 2.5
                         }
                     }
                 }
             },
-            "min_depth" : 5,
-            "max_depth" : 16,
-            "rr_threshold" : 1
+            "min_depth": 5,
+            "max_depth": 16,
+            "rr_threshold": 1
         }
     },
     "light_sampler": {
@@ -31537,21 +31983,21 @@
     "pipeline": {
         "type": "fixed",
         "param": {
-            "obfuscation" : false,
-            "valid_check" : false,
-            "frame_buffer" : {
+            "obfuscation": false,
+            "valid_check": false,
+            "frame_buffer": {
                 "accumulation": 0,
-                "type" : "normal",
-                "param" : {
-                    "resolution" : [
+                "type": "normal",
+                "param": {
+                    "resolution": [
                         720,
                         1080
                     ],
-                    "fb_state" : 0,
-                    "tone_mapper" : {
+                    "fb_state": 0,
+                    "tone_mapper": {
                         "type": "aces",
-                        "param" : {
-                            "exposure" : 1.0
+                        "param": {
+                            "exposure": 1.0
                         }
                     }
                 }
@@ -31565,9 +32011,8 @@
     "render_setting": {
         "polymorphic_mode": 1
     },
-    "spectrum" : {
-//        "type" : "hero",
-        "param" : {
+    "spectrum": {
+        "param": {
             "dimension": 3
         }
     }
