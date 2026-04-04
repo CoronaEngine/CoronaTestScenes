@@ -414,13 +414,10 @@
                         "color": {
                             "channels": "xyz",
                             "node": {
-                                "type": "number",
+                                "type": "image",
                                 "param": {
-                                    "value": [
-                                        1,
-                                        1,
-                                        1
-                                    ]
+                                    "fn": "checker.jpg",
+                                    "color_space": "srgb"
                                 }
                             }
                         },
@@ -436,7 +433,7 @@
                     },
                     "node_tab": {}
                 },
-                "scale": {
+                "frac": {
                     "channels": "x",
                     "node": {
                         "type": "number",
