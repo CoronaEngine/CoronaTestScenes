@@ -1231,7 +1231,7 @@
                     ],
                     "fb_state": 0,
                     "tone_mapper": {
-                        "type": "aces",
+                        "type": "linear",
                         "param": {
                             "exposure": 1.0
                         }
