@@ -540,127 +540,118 @@
                         }
                     }
                 },
-                "ior": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1.5
-                        }
-                    }
-                },
-                "roughness": {
+                "sigma": {
                     "channels": "x",
                     "node": {
                         "type": "number",
                         "param": {
                             "value": 0.1
-                        }
-                    }
-                },
-                "metallic": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.8
-                        }
-                    }
-                },
-                "spec_tint": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.0
-                        }
-                    }
-                },
-                "anisotropic": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0
-                        }
-                    }
-                },
-                "sheen": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0
-                        }
-                    }
-                },
-                "sheen_tint": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0
-                        }
-                    }
-                },
-                "clearcoat": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 1
-                        }
-                    }
-                },
-                "clearcoat_alpha": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.1
-                        }
-                    }
-                },
-                "spec_trans": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.0
-                        }
-                    }
-                },
-                "flatness": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.98
-                        }
-                    }
-                },
-                "scatter_distance": {
-                    "channels": "xyz",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    }
-                },
-                "diff_trans": {
-                    "channels": "x",
-                    "node": {
-                        "type": "number",
-                        "param": {
-                            "value": 0.11
                         }
                     }
                 }
+                // "metallic": {
+                //     "channels": "x",
+                //     "node": {
+                //         "type": "number",
+                //         "param": {
+                //             "value": 0.8
+                //         }
+                //     }
+                // },
+                // "spec_tint": {
+                //     "channels": "x",
+                //     "node": {
+                //         "type": "number",
+                //         "param": {
+                //             "value": 0.0
+                //         }
+                //     }
+                // },
+                // "anisotropic": {
+                //     "channels": "x",
+                //     "node": {
+                //         "type": "number",
+                //         "param": {
+                //             "value": 0
+                //         }
+                //     }
+                // },
+                // "sheen": {
+                //     "channels": "x",
+                //     "node": {
+                //         "type": "number",
+                //         "param": {
+                //             "value": 0
+                //         }
+                //     }
+                // },
+                // "sheen_tint": {
+                //     "channels": "x",
+                //     "node": {
+                //         "type": "number",
+                //         "param": {
+                //             "value": 0
+                //         }
+                //     }
+                // },
+                // "clearcoat": {
+                //     "channels": "x",
+                //     "node": {
+                //         "type": "number",
+                //         "param": {
+                //             "value": 1
+                //         }
+                //     }
+                // },
+                // "clearcoat_alpha": {
+                //     "channels": "x",
+                //     "node": {
+                //         "type": "number",
+                //         "param": {
+                //             "value": 0.1
+                //         }
+                //     }
+                // },
+                // "spec_trans": {
+                //     "channels": "x",
+                //     "node": {
+                //         "type": "number",
+                //         "param": {
+                //             "value": 0.0
+                //         }
+                //     }
+                // },
+                // "flatness": {
+                //     "channels": "x",
+                //     "node": {
+                //         "type": "number",
+                //         "param": {
+                //             "value": 0.98
+                //         }
+                //     }
+                // },
+                // "scatter_distance": {
+                //     "channels": "xyz",
+                //     "node": {
+                //         "type": "number",
+                //         "param": {
+                //             "value": [
+                //                 0,
+                //                 0,
+                //                 0
+                //             ]
+                //         }
+                //     }
+                // },
+                // "diff_trans": {
+                //     "channels": "x",
+                //     "node": {
+                //         "type": "number",
+                //         "param": {
+                //             "value": 0.11
+                //         }
+                //     }
+                // }
             },
             "node_tab": {}
         },
@@ -740,14 +731,20 @@
                     }
                 },
                 "roughness": {
-                    "channels": "xy",
+                    "channels": "x",
                     "node": {
                         "type": "number",
                         "param": {
-                            "value": [
-                                0.001,
-                                0.001
-                            ]
+                            "value": 0.001
+                        }
+                    }
+                },
+                "anisotropic": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0
                         }
                     }
                 }
@@ -986,10 +983,16 @@
                     "node": {
                         "type": "number",
                         "param": {
-                            "value": [
-                                0.001,
-                                0.001
-                            ]
+                            "value": 0.001
+                        }
+                    }
+                },
+                "anisotropic": {
+                    "channels": "xy",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0
                         }
                     }
                 }
