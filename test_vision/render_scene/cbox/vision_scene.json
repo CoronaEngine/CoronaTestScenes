@@ -413,13 +413,7 @@
                     "param": {
                         "color": {
                             "channels": "xyz",
-                            "node": {
-                                "type": "image",
-                                "param": {
-                                    "fn": "checker.jpg",
-                                    "color_space": "srgb"
-                                }
-                            }
+                            "node": "checker"
                         },
                         "sigma": {
                             "channels": "x",
@@ -443,7 +437,16 @@
                     }
                 }
             },
-            "node_tab": {}
+            "node_tab": {
+                "checker": {
+                    "type": "image",
+                    "param": {
+                        "fn": "checker.jpg",
+                        "vector": null,
+                        "color_space": "srgb"
+                    }
+                }
+            }
         },
         {
             "type": "diffuse",
