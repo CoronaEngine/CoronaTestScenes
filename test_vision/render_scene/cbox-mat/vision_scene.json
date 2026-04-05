@@ -2886,9 +2886,52 @@
                             "value": 0.0
                         }
                     }
+                },
+                "normal": {
+                    "channels": "xyz",
+                    "output_key": "Normal",
+                    "node": "Normal Map"
                 }
             },
-            "node_tab": {},
+            "node_tab": {
+                "Texture Coordinate": {
+                    "type": "src_node",
+                    "construct_name": "tex_coord",
+                    "param": {}
+                },
+                "Image Texture.001": {
+                    "type": "image",
+                    "param": {
+                        "fn": "textures/brickwall_normal.jpg",
+                        "vector": {
+                            "channels": "x",
+                            "output_key": "UV",
+                            "node": "Texture Coordinate"
+                        },
+                        "color_space": "linear"
+                    }
+                },
+                "Normal Map": {
+                    "type": "converter",
+                    "construct_name": "normal_map",
+                    "param": {
+                        "color": {
+                            "channels": "xyz",
+                            "output_key": "Color",
+                            "node": "Image Texture.001"
+                        },
+                        "strength": {
+                            "channels": "x",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": 1.1000003814697266
+                                }
+                            }
+                        }
+                    }
+                }
+            },
             "name": "TestDiffuse"
         },
         {
@@ -2925,9 +2968,52 @@
                         }
                     }
                 },
+                "normal": {
+                    "channels": "xyz",
+                    "output_key": "Normal",
+                    "node": "Normal Map"
+                },
                 "remapping_roughness": false
             },
-            "node_tab": {},
+            "node_tab": {
+                "Texture Coordinate": {
+                    "type": "src_node",
+                    "construct_name": "tex_coord",
+                    "param": {}
+                },
+                "Image Texture.001": {
+                    "type": "image",
+                    "param": {
+                        "fn": "textures/brickwall_normal.jpg",
+                        "vector": {
+                            "channels": "x",
+                            "output_key": "UV",
+                            "node": "Texture Coordinate"
+                        },
+                        "color_space": "linear"
+                    }
+                },
+                "Normal Map": {
+                    "type": "converter",
+                    "construct_name": "normal_map",
+                    "param": {
+                        "color": {
+                            "channels": "xyz",
+                            "output_key": "Color",
+                            "node": "Image Texture.001"
+                        },
+                        "strength": {
+                            "channels": "x",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": 1.1000003814697266
+                                }
+                            }
+                        }
+                    }
+                }
+            },
             "name": "TestMirror"
         },
         {
@@ -2973,9 +3059,52 @@
                         }
                     }
                 },
+                "normal": {
+                    "channels": "xyz",
+                    "output_key": "Normal",
+                    "node": "Normal Map"
+                },
                 "remapping_roughness": false
             },
-            "node_tab": {},
+            "node_tab": {
+                "Texture Coordinate": {
+                    "type": "src_node",
+                    "construct_name": "tex_coord",
+                    "param": {}
+                },
+                "Image Texture.001": {
+                    "type": "image",
+                    "param": {
+                        "fn": "textures/brickwall_normal.jpg",
+                        "vector": {
+                            "channels": "x",
+                            "output_key": "UV",
+                            "node": "Texture Coordinate"
+                        },
+                        "color_space": "linear"
+                    }
+                },
+                "Normal Map": {
+                    "type": "converter",
+                    "construct_name": "normal_map",
+                    "param": {
+                        "color": {
+                            "channels": "xyz",
+                            "output_key": "Color",
+                            "node": "Image Texture.001"
+                        },
+                        "strength": {
+                            "channels": "x",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": 1.1000003814697266
+                                }
+                            }
+                        }
+                    }
+                }
+            },
             "name": "TestGlass"
         },
         {
@@ -3000,9 +3129,52 @@
                         }
                     }
                 },
+                "normal": {
+                    "channels": "xyz",
+                    "output_key": "Normal",
+                    "node": "Normal Map"
+                },
                 "remapping_roughness": false
             },
-            "node_tab": {},
+            "node_tab": {
+                "Texture Coordinate": {
+                    "type": "src_node",
+                    "construct_name": "tex_coord",
+                    "param": {}
+                },
+                "Image Texture.001": {
+                    "type": "image",
+                    "param": {
+                        "fn": "textures/brickwall_normal.jpg",
+                        "vector": {
+                            "channels": "x",
+                            "output_key": "UV",
+                            "node": "Texture Coordinate"
+                        },
+                        "color_space": "linear"
+                    }
+                },
+                "Normal Map": {
+                    "type": "converter",
+                    "construct_name": "normal_map",
+                    "param": {
+                        "color": {
+                            "channels": "xyz",
+                            "output_key": "Color",
+                            "node": "Image Texture.001"
+                        },
+                        "strength": {
+                            "channels": "x",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": 1.1000003814697266
+                                }
+                            }
+                        }
+                    }
+                }
+            },
             "name": "TestMetal"
         },
         {
@@ -3052,9 +3224,52 @@
                         }
                     }
                 },
+                "normal": {
+                    "channels": "xyz",
+                    "output_key": "Normal",
+                    "node": "Normal Map"
+                },
                 "remapping_roughness": false
             },
-            "node_tab": {},
+            "node_tab": {
+                "Texture Coordinate": {
+                    "type": "src_node",
+                    "construct_name": "tex_coord",
+                    "param": {}
+                },
+                "Image Texture.001": {
+                    "type": "image",
+                    "param": {
+                        "fn": "textures/brickwall_normal.jpg",
+                        "vector": {
+                            "channels": "x",
+                            "output_key": "UV",
+                            "node": "Texture Coordinate"
+                        },
+                        "color_space": "linear"
+                    }
+                },
+                "Normal Map": {
+                    "type": "converter",
+                    "construct_name": "normal_map",
+                    "param": {
+                        "color": {
+                            "channels": "xyz",
+                            "output_key": "Color",
+                            "node": "Image Texture.001"
+                        },
+                        "strength": {
+                            "channels": "x",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": 1.1000003814697266
+                                }
+                            }
+                        }
+                    }
+                }
+            },
             "name": "TestMetallic"
         },
         {
@@ -3122,9 +3337,52 @@
                         }
                     }
                 },
+                "normal": {
+                    "channels": "xyz",
+                    "output_key": "Normal",
+                    "node": "Normal Map"
+                },
                 "remapping_roughness": true
             },
-            "node_tab": {},
+            "node_tab": {
+                "Texture Coordinate": {
+                    "type": "src_node",
+                    "construct_name": "tex_coord",
+                    "param": {}
+                },
+                "Image Texture.001": {
+                    "type": "image",
+                    "param": {
+                        "fn": "textures/brickwall_normal.jpg",
+                        "vector": {
+                            "channels": "x",
+                            "output_key": "UV",
+                            "node": "Texture Coordinate"
+                        },
+                        "color_space": "linear"
+                    }
+                },
+                "Normal Map": {
+                    "type": "converter",
+                    "construct_name": "normal_map",
+                    "param": {
+                        "color": {
+                            "channels": "xyz",
+                            "output_key": "Color",
+                            "node": "Image Texture.001"
+                        },
+                        "strength": {
+                            "channels": "x",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": 1.1000003814697266
+                                }
+                            }
+                        }
+                    }
+                }
+            },
             "name": "TestPlastic"
         },
         {
@@ -3174,9 +3432,52 @@
                         }
                     }
                 },
+                "normal": {
+                    "channels": "xyz",
+                    "output_key": "Normal",
+                    "node": "Normal Map"
+                },
                 "remapping_roughness": false
             },
-            "node_tab": {},
+            "node_tab": {
+                "Texture Coordinate": {
+                    "type": "src_node",
+                    "construct_name": "tex_coord",
+                    "param": {}
+                },
+                "Image Texture.001": {
+                    "type": "image",
+                    "param": {
+                        "fn": "textures/brickwall_normal.jpg",
+                        "vector": {
+                            "channels": "x",
+                            "output_key": "UV",
+                            "node": "Texture Coordinate"
+                        },
+                        "color_space": "linear"
+                    }
+                },
+                "Normal Map": {
+                    "type": "converter",
+                    "construct_name": "normal_map",
+                    "param": {
+                        "color": {
+                            "channels": "xyz",
+                            "output_key": "Color",
+                            "node": "Image Texture.001"
+                        },
+                        "strength": {
+                            "channels": "x",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": 1.1000003814697266
+                                }
+                            }
+                        }
+                    }
+                }
+            },
             "name": "TestSubstrate"
         },
         {
@@ -3243,6 +3544,11 @@
                             "value": 0.0
                         }
                     }
+                },
+                "normal": {
+                    "channels": "xyz",
+                    "output_key": "Normal",
+                    "node": "Normal Map"
                 },
                 "opacity": {
                     "channels": "x",
@@ -3365,7 +3671,45 @@
                     }
                 }
             },
-            "node_tab": {},
+            "node_tab": {
+                "Texture Coordinate": {
+                    "type": "src_node",
+                    "construct_name": "tex_coord",
+                    "param": {}
+                },
+                "Image Texture.001": {
+                    "type": "image",
+                    "param": {
+                        "fn": "textures/brickwall_normal.jpg",
+                        "vector": {
+                            "channels": "x",
+                            "output_key": "UV",
+                            "node": "Texture Coordinate"
+                        },
+                        "color_space": "linear"
+                    }
+                },
+                "Normal Map": {
+                    "type": "converter",
+                    "construct_name": "normal_map",
+                    "param": {
+                        "color": {
+                            "channels": "xyz",
+                            "output_key": "Color",
+                            "node": "Image Texture.001"
+                        },
+                        "strength": {
+                            "channels": "x",
+                            "node": {
+                                "type": "number",
+                                "param": {
+                                    "value": 1.1000003814697266
+                                }
+                            }
+                        }
+                    }
+                }
+            },
             "name": "TestPrincipledBSDF"
         }
     ],
