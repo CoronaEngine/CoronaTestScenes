@@ -291,7 +291,7 @@
             "param": {
                 "fn": "meshes/sphere.glb",
                 "smooth": true,
-                "material": "Material",
+                "material": "TestDiffuse",
                 "transform": {
                     "type": "matrix4x4",
                     "param": {
@@ -331,7 +331,7 @@
             "param": {
                 "fn": "meshes/sphere.glb",
                 "smooth": true,
-                "material": "Material.002",
+                "material": "TestMirror",
                 "transform": {
                     "type": "matrix4x4",
                     "param": {
@@ -371,7 +371,7 @@
             "param": {
                 "fn": "meshes/sphere.glb",
                 "smooth": true,
-                "material": "Material.003",
+                "material": "TestGlass",
                 "transform": {
                     "type": "matrix4x4",
                     "param": {
@@ -411,7 +411,7 @@
             "param": {
                 "fn": "meshes/sphere.glb",
                 "smooth": true,
-                "material": "Material.004",
+                "material": "TestMetal",
                 "transform": {
                     "type": "matrix4x4",
                     "param": {
@@ -451,7 +451,7 @@
             "param": {
                 "fn": "meshes/sphere.glb",
                 "smooth": true,
-                "material": "Material.005",
+                "material": "TestMetallic",
                 "transform": {
                     "type": "matrix4x4",
                     "param": {
@@ -491,7 +491,7 @@
             "param": {
                 "fn": "meshes/sphere.glb",
                 "smooth": true,
-                "material": "Material.006",
+                "material": "TestPlastic",
                 "transform": {
                     "type": "matrix4x4",
                     "param": {
@@ -531,7 +531,7 @@
             "param": {
                 "fn": "meshes/sphere.glb",
                 "smooth": true,
-                "material": "Material.007",
+                "material": "TestSubstrate",
                 "transform": {
                     "type": "matrix4x4",
                     "param": {
@@ -571,7 +571,7 @@
             "param": {
                 "fn": "meshes/sphere.glb",
                 "smooth": true,
-                "material": "Material.008",
+                "material": "TestPrincipledBSDF",
                 "transform": {
                     "type": "matrix4x4",
                     "param": {
@@ -2861,6 +2861,512 @@
                 }
             },
             "name": "Material.009"
+        },
+        {
+            "type": "diffuse",
+            "param": {
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        }
+                    }
+                },
+                "sigma": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.0
+                        }
+                    }
+                }
+            },
+            "node_tab": {},
+            "name": "TestDiffuse"
+        },
+        {
+            "type": "mirror",
+            "param": {
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.14
+                        }
+                    }
+                },
+                "anisotropic": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.0
+                        }
+                    }
+                },
+                "remapping_roughness": false
+            },
+            "node_tab": {},
+            "name": "TestMirror"
+        },
+        {
+            "type": "glass",
+            "param": {
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        }
+                    }
+                },
+                "ior": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 1.5
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.14
+                        }
+                    }
+                },
+                "anisotropic": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.0
+                        }
+                    }
+                },
+                "remapping_roughness": false
+            },
+            "node_tab": {},
+            "name": "TestGlass"
+        },
+        {
+            "type": "metal",
+            "param": {
+                "material_name": "Cu",
+                "roughness": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.14
+                        }
+                    }
+                },
+                "anisotropic": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.0
+                        }
+                    }
+                },
+                "remapping_roughness": false
+            },
+            "node_tab": {},
+            "name": "TestMetal"
+        },
+        {
+            "type": "metallic",
+            "param": {
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        }
+                    }
+                },
+                "edge_tint": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.9,
+                                0.85,
+                                0.8
+                            ]
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.14
+                        }
+                    }
+                },
+                "anisotropic": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.0
+                        }
+                    }
+                },
+                "remapping_roughness": false
+            },
+            "node_tab": {},
+            "name": "TestMetallic"
+        },
+        {
+            "type": "plastic",
+            "param": {
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        }
+                    }
+                },
+                "ior": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 1.5
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.12
+                        }
+                    }
+                },
+                "anisotropic": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.0
+                        }
+                    }
+                },
+                "sigma_a": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ]
+                        }
+                    }
+                },
+                "thickness": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 1.0
+                        }
+                    }
+                },
+                "remapping_roughness": true
+            },
+            "node_tab": {},
+            "name": "TestPlastic"
+        },
+        {
+            "type": "substrate",
+            "param": {
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        }
+                    }
+                },
+                "spec": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                0.05,
+                                0.05,
+                                0.05
+                            ]
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.5
+                        }
+                    }
+                },
+                "anisotropic": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.0
+                        }
+                    }
+                },
+                "remapping_roughness": false
+            },
+            "node_tab": {},
+            "name": "TestSubstrate"
+        },
+        {
+            "type": "principled_bsdf",
+            "param": {
+                "color": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        }
+                    }
+                },
+                "metallic": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.0
+                        }
+                    }
+                },
+                "ior": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 1.5
+                        }
+                    }
+                },
+                "roughness": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.3
+                        }
+                    }
+                },
+                "spec_tint": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        }
+                    }
+                },
+                "anisotropic": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.0
+                        }
+                    }
+                },
+                "opacity": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 1.0
+                        }
+                    }
+                },
+                "sheen_weight": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.0
+                        }
+                    }
+                },
+                "sheen_roughness": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.5
+                        }
+                    }
+                },
+                "sheen_tint": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        }
+                    }
+                },
+                "coat_weight": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.0
+                        }
+                    }
+                },
+                "coat_roughness": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.2
+                        }
+                    }
+                },
+                "coat_ior": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 1.5
+                        }
+                    }
+                },
+                "coat_tint": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        }
+                    }
+                },
+                "subsurface_weight": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.0
+                        }
+                    }
+                },
+                "subsurface_radius": {
+                    "channels": "xyz",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ]
+                        }
+                    }
+                },
+                "subsurface_scale": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.2
+                        }
+                    }
+                },
+                "transmission_weight": {
+                    "channels": "x",
+                    "node": {
+                        "type": "number",
+                        "param": {
+                            "value": 0.0
+                        }
+                    }
+                }
+            },
+            "node_tab": {},
+            "name": "TestPrincipledBSDF"
         }
     ],
     "camera": {
