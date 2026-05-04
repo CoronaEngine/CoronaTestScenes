@@ -26,22 +26,6 @@
                         ]
                     }
                 },
-                "radiance_collector": {
-                    "type": "normal",
-                    "param": {
-                        "resolution": [
-                            1024,
-                            1024
-                        ],
-                        "fb_state": 0,
-                        "tone_mapper": {
-                            "type": "aces",
-                            "param": {
-                                "exposure": 1.0
-                            }
-                        }
-                    }
-                },
                 "filter": {
                     "type": "triangle",
                     "name": "boxFilter",

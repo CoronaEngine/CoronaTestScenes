@@ -26,16 +26,6 @@
                         ]
                     }
                 },
-                "radiance_collector": {
-                    "type": "normal",
-                    "param": {
-                        "resolution": [
-                            1024,
-                            720
-                        ],
-                        "fb_state": 0
-                    }
-                },
                 "filter": {
                     "type": "box",
                     "name": "boxFilter",
