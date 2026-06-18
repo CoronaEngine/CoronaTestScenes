@@ -10,9 +10,9 @@
                     "type": "look_at",
                     "param": {
                         "position": [
-                            0.058,
-                            1.056,
-                            3.764
+                            0,
+                            1,
+                            6.8
                         ],
                         "up": [
                             0,
@@ -83,14 +83,20 @@
                                 }
                             },
                             "roughness": {
-                                "channels": "xy",
+                                "channels": "x",
                                 "node": {
                                     "type": "number",
                                     "param": {
-                                        "value": [
-                                            0.001,
-                                            0.001
-                                        ]
+                                        "value": 0.001
+                                    }
+                                }
+                            },
+                            "anisotropic": {
+                                "channels": "x",
+                                "node": {
+                                    "type": "number",
+                                    "param": {
+                                        "value": 0
                                     }
                                 }
                             }
@@ -99,32 +105,19 @@
                         }
                     },
                     "mat1": {
-                        "type": "glass",
-                        "name": "Glass",
+                        "type": "diffuse",
+                        "name": "dif",
                         "param": {
-                            "material_name": "BK7",
                             "color": {
                                 "channels": "xyz",
-                                "node": {
-                                    "type": "number",
-                                    "param": {
-                                        "value": [
-                                            1,
-                                            1,
-                                            1
-                                        ]
-                                    }
-                                }
+                                "node": "checker"
                             },
-                            "roughness": {
-                                "channels": "xy",
+                            "sigma": {
+                                "channels": "x",
                                 "node": {
                                     "type": "number",
                                     "param": {
-                                        "value": [
-                                            0.001,
-                                            0.001
-                                        ]
+                                        "value": 0.3
                                     }
                                 }
                             }
@@ -132,17 +125,25 @@
                         "node_tab": {
                         }
                     },
-                    "scale": {
+                    "frac": {
                         "channels": "x",
                         "node": {
                             "type": "number",
                             "param": {
-                                "value": 0.5
+                                "value": 0.15
                             }
                         }
                     }
                 },
                 "node_tab": {
+                    "checker": {
+                        "type": "image",
+                        "param": {
+                            "fn": "checker.jpg",
+                            "vector": null,
+                            "color_space": "srgb"
+                        }
+                    }
                 }
             },
             {
@@ -243,124 +244,12 @@
                             }
                         }
                     },
-                    "ior": {
-                        "channels": "x",
-                        "node": {
-                            "type": "number",
-                            "param": {
-                                "value": 1.5
-                            }
-                        }
-                    },
-                    "roughness": {
+                    "sigma": {
                         "channels": "x",
                         "node": {
                             "type": "number",
                             "param": {
                                 "value": 0.1
-                            }
-                        }
-                    },
-                    "metallic": {
-                        "channels": "x",
-                        "node": {
-                            "type": "number",
-                            "param": {
-                                "value": 0.8
-                            }
-                        }
-                    },
-                    "spec_tint": {
-                        "channels": "x",
-                        "node": {
-                            "type": "number",
-                            "param": {
-                                "value": 0.0
-                            }
-                        }
-                    },
-                    "anisotropic": {
-                        "channels": "x",
-                        "node": {
-                            "type": "number",
-                            "param": {
-                                "value": 0
-                            }
-                        }
-                    },
-                    "sheen": {
-                        "channels": "x",
-                        "node": {
-                            "type": "number",
-                            "param": {
-                                "value": 0
-                            }
-                        }
-                    },
-                    "sheen_tint": {
-                        "channels": "x",
-                        "node": {
-                            "type": "number",
-                            "param": {
-                                "value": 0
-                            }
-                        }
-                    },
-                    "clearcoat": {
-                        "channels": "x",
-                        "node": {
-                            "type": "number",
-                            "param": {
-                                "value": 1
-                            }
-                        }
-                    },
-                    "clearcoat_alpha": {
-                        "channels": "x",
-                        "node": {
-                            "type": "number",
-                            "param": {
-                                "value": 0.1
-                            }
-                        }
-                    },
-                    "spec_trans": {
-                        "channels": "x",
-                        "node": {
-                            "type": "number",
-                            "param": {
-                                "value": 0.0
-                            }
-                        }
-                    },
-                    "flatness": {
-                        "channels": "x",
-                        "node": {
-                            "type": "number",
-                            "param": {
-                                "value": 0.98
-                            }
-                        }
-                    },
-                    "scatter_distance": {
-                        "channels": "xyz",
-                        "node": {
-                            "type": "number",
-                            "param": {
-                                "value": [
-                                    0,
-                                    0,
-                                    0
-                                ]
-                            }
-                        }
-                    },
-                    "diff_trans": {
-                        "channels": "x",
-                        "node": {
-                            "type": "number",
-                            "param": {
-                                "value": 0.11
                             }
                         }
                     }
@@ -445,14 +334,20 @@
                         }
                     },
                     "roughness": {
-                        "channels": "xy",
+                        "channels": "x",
                         "node": {
                             "type": "number",
                             "param": {
-                                "value": [
-                                    0.001,
-                                    0.001
-                                ]
+                                "value": 0.001
+                            }
+                        }
+                    },
+                    "anisotropic": {
+                        "channels": "x",
+                        "node": {
+                            "type": "number",
+                            "param": {
+                                "value": 0
                             }
                         }
                     }
@@ -694,10 +589,16 @@
                         "node": {
                             "type": "number",
                             "param": {
-                                "value": [
-                                    0.001,
-                                    0.001
-                                ]
+                                "value": 0.001
+                            }
+                        }
+                    },
+                    "anisotropic": {
+                        "channels": "xy",
+                        "node": {
+                            "type": "number",
+                            "param": {
+                                "value": 0
                             }
                         }
                     }
@@ -1025,7 +926,7 @@
                     "x": 1,
                     "y": 1,
                     "z": 1,
-                    "material": "Glass",
+                    "material": "mix",
                     "transform": {
                         "type": "matrix4x4",
                         "param": {
@@ -1335,23 +1236,24 @@
                 "max_depth": 16,
                 "rr_threshold": 1,
                 "denoiser": {
-                    "type": "SSAT",
+                    "type": "svgf",
                     "param": {
-                        "rho_base": 1.0,
-                        "alpha_shear": 1.0,
-                        "sigma_lum": 6.0,
-                        "sigma_normal": 128.0,
-                        "sigma_depth_angular": 100.0,
-                        "sigma_x": 3.0,
-                        "sigma_u": 0.5,
-                        "beta": 1.0,
-                        "angular_range": 1.0,
-                        "spatial_radius": 1,
-                        "angular_samples": 7,
-                        "alpha_base": 0.1,
-                        "angular_bandwidth": 0.1,
-                        "enabled": true,
-                        "use_adaptive_sampling": true
+                        "N": 3,
+                        "alpha": 0.05,
+                        "moments_alpha": 0.2,
+                        "history_limit": 32,
+                        "sigma_rt": 10,
+                        "sigma_normal": 128,
+                        "filter": {
+                            "type": "gaussian",
+                            "param": {
+                                "radius": [
+                                    2,
+                                    2
+                                ]
+                            }
+                        },
+                        "backend": "GPU"
                     }
                 }
             }
@@ -1366,6 +1268,22 @@
         },
         "render_setting": {
             "polymorphic_mode": 1
+        },
+        "denoiser": {
+            "type": "oidn",
+            "param": {
+                "N": 2,
+                "filter": {
+                    "type": "gaussian",
+                    "param": {
+                        "radius": [
+                            2,
+                            2
+                        ]
+                    }
+                },
+                "backend": "GPU"
+            }
         }
     },
     "pipeline": {
@@ -1373,29 +1291,25 @@
             "obfuscation": false,
             "valid_check": false,
             "frame_buffer": {
-                "type": "lightfield",
+                "type": "normal",
                 "param": {
-                    "accumulation": true,
-                    "lenticular": {
-                        "pe": 19.1849,
-                        "angle": 0.2333,
-                        "offset": 10.0,
-                        "num_views": 48,
-                        "res_w": 1280,
-                        "res_h": 720
-                    },
-                    "geometry": {
-                        "d_f": 4.2,
-                        "fov_h_deg": 45.0,
-                        "aspect": 0.75,
-                        "array_angle_deg": 5.0
+                    "resolution": [
+                        1500,
+                        1024
+                    ],
+                    "fb_state": 0,
+                    "tone_mapper": {
+                        "type": "aces",
+                        "param": {
+                            "exposure": 1.0
+                        }
                     }
                 }
             }
         }
     },
     "output": {
-        "spp": 3,
+        "spp": 0,
         "denoise": true,
         "save_exit": false,
         "fn": "hero1-CPU.png"
