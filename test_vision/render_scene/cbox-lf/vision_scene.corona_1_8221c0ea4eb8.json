@@ -1,0 +1,1384 @@
+{
+  "scene": {
+    "camera": {
+      "type": "thin_lens",
+      "param": {
+        "fov_y": 19.5,
+        "name": "view1",
+        "velocity": 5,
+        "transform": {
+          "type": "look_at",
+          "param": {
+            "position": [
+              0.058,
+              1.056,
+              3.764
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ],
+            "target_pos": [
+              0,
+              1,
+              0
+            ]
+          }
+        },
+        "filter": {
+          "type": "triangle",
+          "name": "boxFilter",
+          "param": {
+            "radius": [
+              0.5,
+              0.5
+            ]
+          }
+        }
+      }
+    },
+    "materials": [
+      {
+        "type": "diffuse",
+        "name": "LeftWall",
+        "param": {
+          "color": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  0.63,
+                  0.065,
+                  0.05
+                ]
+              }
+            }
+          }
+        },
+        "node_tab": {}
+      },
+      {
+        "type": "mix",
+        "name": "mix",
+        "param": {
+          "mat0": {
+            "type": "glass",
+            "name": "Glass",
+            "param": {
+              "material_name": "BK7",
+              "color": {
+                "channels": "xyz",
+                "node": {
+                  "type": "number",
+                  "param": {
+                    "value": [
+                      1,
+                      1,
+                      1
+                    ]
+                  }
+                }
+              },
+              "roughness": {
+                "channels": "xy",
+                "node": {
+                  "type": "number",
+                  "param": {
+                    "value": [
+                      0.001,
+                      0.001
+                    ]
+                  }
+                }
+              }
+            },
+            "node_tab": {}
+          },
+          "mat1": {
+            "type": "glass",
+            "name": "Glass",
+            "param": {
+              "material_name": "BK7",
+              "color": {
+                "channels": "xyz",
+                "node": {
+                  "type": "number",
+                  "param": {
+                    "value": [
+                      1,
+                      1,
+                      1
+                    ]
+                  }
+                }
+              },
+              "roughness": {
+                "channels": "xy",
+                "node": {
+                  "type": "number",
+                  "param": {
+                    "value": [
+                      0.001,
+                      0.001
+                    ]
+                  }
+                }
+              }
+            },
+            "node_tab": {}
+          },
+          "scale": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.5
+              }
+            }
+          }
+        },
+        "node_tab": {}
+      },
+      {
+        "type": "diffuse",
+        "name": "RightWall",
+        "param": {
+          "color": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  0.14,
+                  0.45,
+                  0.091
+                ]
+              }
+            }
+          }
+        },
+        "node_tab": {}
+      },
+      {
+        "type": "diffuse",
+        "name": "Floor",
+        "param": {
+          "color": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  0.725,
+                  0.71,
+                  0.68
+                ]
+              }
+            }
+          }
+        },
+        "node_tab": {}
+      },
+      {
+        "type": "diffuse",
+        "name": "Ceiling",
+        "param": {
+          "color": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  0.725,
+                  0.71,
+                  0.68
+                ]
+              }
+            }
+          }
+        },
+        "node_tab": {}
+      },
+      {
+        "type": "diffuse",
+        "name": "BackWall",
+        "param": {
+          "color": {
+            "channels": "xyz",
+            "node": {
+              "type": "image",
+              "param": {
+                "fn": "checker.jpg",
+                "color_space": "srgb"
+              }
+            }
+          }
+        },
+        "node_tab": {}
+      },
+      {
+        "type": "diffuse",
+        "name": "ShortBox",
+        "param": {
+          "color": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  0.725,
+                  0.71,
+                  0.68
+                ]
+              }
+            }
+          },
+          "ior": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 1.5
+              }
+            }
+          },
+          "roughness": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.1
+              }
+            }
+          },
+          "metallic": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.8
+              }
+            }
+          },
+          "spec_tint": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.0
+              }
+            }
+          },
+          "anisotropic": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0
+              }
+            }
+          },
+          "sheen": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0
+              }
+            }
+          },
+          "sheen_tint": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0
+              }
+            }
+          },
+          "clearcoat": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 1
+              }
+            }
+          },
+          "clearcoat_alpha": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.1
+              }
+            }
+          },
+          "spec_trans": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.0
+              }
+            }
+          },
+          "flatness": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.98
+              }
+            }
+          },
+          "scatter_distance": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            }
+          },
+          "diff_trans": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.11
+              }
+            }
+          }
+        },
+        "node_tab": {}
+      },
+      {
+        "type": "glass",
+        "name": "Glass",
+        "param": {
+          "material_name": "BK7",
+          "bump_scale": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.1
+              }
+            }
+          },
+          "color": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            }
+          },
+          "roughness": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.001
+              }
+            }
+          },
+          "anisotropic": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0
+              }
+            }
+          }
+        },
+        "node_tab": {}
+      },
+      {
+        "type": "glass",
+        "name": "Glass2",
+        "param": {
+          "material_name": "BK7",
+          "color": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            }
+          },
+          "ior": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 1.5
+              }
+            }
+          },
+          "roughness": {
+            "channels": "xy",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  0.001,
+                  0.001
+                ]
+              }
+            }
+          }
+        },
+        "node_tab": {}
+      },
+      {
+        "type": "principled_bsdf",
+        "name": "principled_bsdf",
+        "param": {
+          "color": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            }
+          },
+          "roughness": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.5
+              }
+            }
+          },
+          "ior": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 1.45
+              }
+            }
+          },
+          "metallic": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.0
+              }
+            }
+          },
+          "spec_tint": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            }
+          },
+          "anisotropic": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.0
+              }
+            }
+          },
+          "sheen_weight": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.0
+              }
+            }
+          },
+          "sheen_roughness": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.5
+              }
+            }
+          },
+          "sheen_tint": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            }
+          },
+          "coat_weight": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.0
+              }
+            }
+          },
+          "coat_roughness": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.03
+              }
+            }
+          },
+          "coat_ior": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 1.5
+              }
+            }
+          },
+          "coat_tint": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            }
+          },
+          "subsurface_weight": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.0
+              }
+            }
+          },
+          "subsurface_radius": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  1.0,
+                  0.2,
+                  0.1
+                ]
+              }
+            }
+          },
+          "subsurface_scale": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.05
+              }
+            }
+          },
+          "transmission_weight": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.0
+              }
+            }
+          }
+        },
+        "node_tab": {}
+      },
+      {
+        "type": "substrate",
+        "name": "substrate",
+        "param": {
+          "roughness": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.001
+              }
+            }
+          },
+          "spec": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  0.04,
+                  0.04,
+                  0.04
+                ]
+              }
+            }
+          },
+          "color": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  0.725,
+                  0.71,
+                  0.68
+                ]
+              }
+            }
+          }
+        },
+        "node_tab": {}
+      },
+      {
+        "type": "metal",
+        "name": "Metal",
+        "param": {
+          "material_name": "Cu",
+          "roughness": {
+            "channels": "xy",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  0.001,
+                  0.001
+                ]
+              }
+            }
+          }
+        },
+        "node_tab": {}
+      },
+      {
+        "type": "mirror",
+        "name": "Mirror",
+        "param": {
+          "color": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            }
+          },
+          "roughness": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.3
+              }
+            }
+          },
+          "anisotropic": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0
+              }
+            }
+          }
+        },
+        "node_tab": {}
+      },
+      {
+        "type": "mirror",
+        "name": "Mirror2",
+        "param": {
+          "color": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            }
+          },
+          "roughness": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.001
+              }
+            }
+          }
+        },
+        "node_tab": {}
+      },
+      {
+        "type": "diffuse",
+        "name": "TallBox",
+        "param": {
+          "color": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  0.725,
+                  0.71,
+                  0.68
+                ]
+              }
+            }
+          }
+        },
+        "node_tab": {}
+      },
+      {
+        "type": "diffuse",
+        "name": "Light",
+        "param": {
+          "color": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            }
+          }
+        },
+        "node_tab": {}
+      }
+    ],
+    "shapes": [
+      {
+        "type": "quad",
+        "name": "shape_0",
+        "param": {
+          "width": 1.0,
+          "height": 1.0,
+          "material": "Floor",
+          "transform": {
+            "type": "matrix4x4",
+            "param": {
+              "matrix4x4": [
+                [
+                  1.509957990978375e-07,
+                  0.0,
+                  -1.9999999999999942,
+                  0.0
+                ],
+                [
+                  0.0,
+                  3.999999761581421,
+                  0.0,
+                  0.0
+                ],
+                [
+                  1.9999999999999942,
+                  0.0,
+                  1.509957990978375e-07,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "quad",
+        "name": "shape_1",
+        "param": {
+          "width": 1.0,
+          "height": 1.0,
+          "material": "Ceiling",
+          "transform": {
+            "type": "matrix4x4",
+            "param": {
+              "matrix4x4": [
+                [
+                  -1.9999999999999771,
+                  3.0199159819567413e-07,
+                  0.0,
+                  0.0
+                ],
+                [
+                  -6.039831963913483e-07,
+                  -3.9999999999999543,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  2.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  2.0,
+                  0.0,
+                  1.0
+                ]
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "quad",
+        "name": "shape_2",
+        "param": {
+          "width": 1.0,
+          "height": 1.0,
+          "material": "BackWall",
+          "transform": {
+            "type": "matrix4x4",
+            "param": {
+              "matrix4x4": [
+                [
+                  -8.742277479292099e-08,
+                  1.9999998807907065,
+                  8.742277846809922e-08,
+                  0.0
+                ],
+                [
+                  1.7484556765019225e-07,
+                  -1.7484555971506354e-07,
+                  3.999999999999992,
+                  0.0
+                ],
+                [
+                  1.9999998807907065,
+                  8.742277861429216e-08,
+                  -8.742277479292099e-08,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  -1.0,
+                  1.0
+                ]
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "quad",
+        "name": "shape_3",
+        "param": {
+          "width": 1.0,
+          "height": 1.0,
+          "material": "LeftWall",
+          "transform": {
+            "type": "matrix4x4",
+            "param": {
+              "matrix4x4": [
+                [
+                  1.509957990978375e-07,
+                  1.9999999999999942,
+                  0.0,
+                  0.0
+                ],
+                [
+                  3.9999999999999427,
+                  -3.0199159819567387e-07,
+                  -6.039831963913483e-07,
+                  0.0
+                ],
+                [
+                  -3.0199158019557195e-07,
+                  0.0,
+                  -1.9999998807906876,
+                  0.0
+                ],
+                [
+                  -1.0,
+                  1.0,
+                  0.0,
+                  1.0
+                ]
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "quad",
+        "name": "shape_4",
+        "param": {
+          "width": 1.0,
+          "height": 1.0,
+          "material": "RightWall",
+          "transform": {
+            "type": "matrix4x4",
+            "param": {
+              "matrix4x4": [
+                [
+                  -8.742278000372482e-08,
+                  1.999999999999998,
+                  0.0,
+                  0.0
+                ],
+                [
+                  -3.999999999999996,
+                  -1.7484556000744965e-07,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.9999998807907104,
+                  0.0
+                ],
+                [
+                  1.0,
+                  1.0,
+                  0.0,
+                  1.0
+                ]
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "cube",
+        "name": "shape_5",
+        "param": {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "material": "Glass",
+          "transform": {
+            "type": "matrix4x4",
+            "param": {
+              "matrix4x4": [
+                [
+                  -0.17032852950823618,
+                  2.5718892422255935e-08,
+                  0.5699019857451832,
+                  0.0
+                ],
+                [
+                  -0.5790837308225839,
+                  1.138581133441196e-07,
+                  -0.17307270864162022,
+                  0.0
+                ],
+                [
+                  -1.157260019843887e-07,
+                  -0.5999999642372019,
+                  -7.51024793271712e-09,
+                  0.0
+                ],
+                [
+                  0.3286310136318207,
+                  0.29899999499320984,
+                  0.37459200620651245,
+                  1.0
+                ]
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "cube",
+        "name": "shape_6",
+        "param": {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "material": "TallBox",
+          "transform": {
+            "type": "matrix4x4",
+            "param": {
+              "matrix4x4": [
+                [
+                  0.5735511799867453,
+                  -8.724663211001051e-09,
+                  -0.19959707710738825,
+                  0.0
+                ],
+                [
+                  0.19645827660013832,
+                  4.2139581853454934e-08,
+                  0.5645316955295258,
+                  0.0
+                ],
+                [
+                  1.152259567874735e-08,
+                  -1.199999928474423,
+                  8.556434705720567e-08,
+                  0.0
+                ],
+                [
+                  -0.335438996553421,
+                  0.5989999771118164,
+                  -0.2914150059223175,
+                  1.0
+                ]
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "quad",
+        "name": "shape_7",
+        "param": {
+          "width": 1,
+          "height": 1,
+          "material": "Light",
+          "transform": {
+            "type": "matrix4x4",
+            "param": {
+              "matrix4x4": [
+                [
+                  0.46999999880790355,
+                  -4.108870488531738e-08,
+                  -4.108870488531753e-08,
+                  0.0
+                ],
+                [
+                  -1.561370911719827e-08,
+                  -0.17859999835491047,
+                  -1.5613708364846998e-08,
+                  0.0
+                ],
+                [
+                  -3.322065177681427e-08,
+                  3.322065888879285e-08,
+                  -0.37999999523162553,
+                  0.0
+                ],
+                [
+                  -0.004999999888241291,
+                  1.9800000190734863,
+                  -0.029999999329447746,
+                  1.0
+                ]
+              ]
+            }
+          },
+          "emission": {
+            "type": "area",
+            "param": {
+              "color": {
+                "channels": "xyz",
+                "node": {
+                  "type": "number",
+                  "param": {
+                    "value": [
+                      17,
+                      12,
+                      4
+                    ]
+                  }
+                }
+              },
+              "two_sided": false,
+              "scale": 1
+            }
+          }
+        }
+      }
+    ],
+    "lights": [
+      {
+        "type": "spot",
+        "param": {
+          "angle": 20,
+          "falloff": 2,
+          "direction": [
+            0.2,
+            -1,
+            0
+          ],
+          "color": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            }
+          },
+          "position": [
+            0.5,
+            1.9,
+            0
+          ],
+          "scale": 3,
+          "strength": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 3
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "point",
+        "param": {
+          "color": {
+            "channels": "xyz",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            }
+          },
+          "position": [
+            -0.5,
+            1.8,
+            0
+          ],
+          "scale": 0.2,
+          "strength": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 0.2
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "spherical",
+        "param": {
+          "color": {
+            "channels": "xyz",
+            "node": {
+              "type": "image",
+              "param": {
+                "fn": "textures/spruit_sunrise_2k.hdr",
+                "color_space": "linear"
+              }
+            }
+          },
+          "o2w": {
+            "type": "Euler",
+            "param": {
+              "yaw": -30
+            }
+          },
+          "scale": 1,
+          "strength": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 1
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "projector",
+        "param": {
+          "angle": 6,
+          "color": {
+            "channels": "xyz",
+            "node": {
+              "type": "image",
+              "param": {
+                "fn": "Painting3.jpg",
+                "color_space": "srgb"
+              }
+            }
+          },
+          "ratio": 1,
+          "o2w": {
+            "type": "look_at",
+            "param": {
+              "position": [
+                0,
+                1,
+                6.8
+              ],
+              "up": [
+                0,
+                1,
+                0
+              ],
+              "target_pos": [
+                0,
+                1,
+                0
+              ]
+            }
+          },
+          "scale": 300,
+          "strength": {
+            "channels": "x",
+            "node": {
+              "type": "number",
+              "param": {
+                "value": 300
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "render": {
+    "sampler": {
+      "type": "independent",
+      "name": "sampler0",
+      "param": {
+        "spp": 1
+      }
+    },
+    "spectrum": {
+      "param": {
+        "dimension": 3
+      }
+    },
+    "integrator": {
+      "type": "pt",
+      "param": {
+        "min_depth": 0,
+        "max_depth": 16,
+        "rr_threshold": 1,
+        "denoiser": {
+          "type": "SSAT",
+          "param": {
+            "rho_base": 1.0,
+            "alpha_shear": 1.0,
+            "sigma_lum": 6.0,
+            "sigma_normal": 128.0,
+            "sigma_depth_angular": 100.0,
+            "sigma_x": 3.0,
+            "sigma_u": 0.5,
+            "beta": 1.0,
+            "angular_range": 1.0,
+            "spatial_radius": 1,
+            "angular_samples": 7,
+            "alpha_base": 0.1,
+            "angular_bandwidth": 0.1,
+            "enabled": true,
+            "use_adaptive_sampling": true
+          }
+        }
+      }
+    },
+    "light_sampler": {
+      "type": "uniform",
+      "param": {}
+    },
+    "warper": {
+      "type": "alias_table"
+    },
+    "render_setting": {
+      "polymorphic_mode": 1
+    }
+  },
+  "pipeline": {
+    "param": {
+      "obfuscation": false,
+      "valid_check": false,
+      "frame_buffer": {
+        "type": "lightfield",
+        "param": {
+          "accumulation": true,
+          "lenticular": {
+            "pe": 19.1849,
+            "angle": 0.2333,
+            "offset": 10.0,
+            "num_views": 48,
+            "res_w": 1280,
+            "res_h": 720
+          },
+          "geometry": {
+            "d_f": 4.2,
+            "fov_h_deg": 45.0,
+            "aspect": 0.75,
+            "array_angle_deg": 5.0
+          }
+        }
+      }
+    }
+  },
+  "output": {
+    "spp": 3,
+    "denoise": true,
+    "save_exit": false,
+    "fn": "hero1-CPU.png"
+  }
+}
